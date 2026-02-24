@@ -18,7 +18,7 @@ def tokenize_dataset(model_name, json_path):
     val_ds = split_ds["test"]
 
     def preprocess(example):
-        input_text = "extract food:" + example["input"]
+        input_text = "extract_food: " + example["input"]
         inputs = tokenizer(
             input_text, truncation=True, padding="max_length", max_length=128
         )
@@ -27,7 +27,7 @@ def tokenize_dataset(model_name, json_path):
         )
 
         labels_ids = [
-            token if token is not tokenizer.pad_token_id else -100
+            token if token != tokenizer.pad_token_id else -100
             for token in labels["input_ids"]
         ]
 
