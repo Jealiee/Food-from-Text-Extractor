@@ -6,7 +6,7 @@ import torch
 model_name = "t5-small"
 model = AutoModelForSeq2SeqLM.from_pretrained(model_name)
 
-train_ds, val_ds = tokenize_dataset(model_name, "food_ds.json")
+train_ds, val_ds = tokenize_dataset(model_name, ["food_ds.json", "food_ds_fuzzed.json"])
 
 tokenizer = AutoTokenizer.from_pretrained("t5-small")
 _sample = val_ds[0]
@@ -31,9 +31,9 @@ class PrintSampleCallback(TrainerCallback):
 
 training_args = TrainingArguments(
     output_dir="./results",
-    per_device_train_batch_size=4,
+    per_device_train_batch_size=32,
     per_device_eval_batch_size=4,
-    num_train_epochs=5,
+    num_train_epochs=20,
     learning_rate=5e-5,
     logging_steps=20,
     save_strategy="epoch",

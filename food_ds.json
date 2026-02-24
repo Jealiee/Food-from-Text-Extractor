@@ -3998,5 +3998,261 @@
   {
     "input": "kinda Lowkey just 4 slices of apple and 50g turkey sandwich and 2 cups of Oreo McFlurry",
     "output": "food: apple, quantity: 4, unit: slices|food: turkey sandwich, quantity: 50, unit: g|food: Oreo McFlurry, quantity: 2, unit: cups"
+  },
+  {
+    "input": "had like 5 slices of pizza, wait no just 2 slices",
+    "output": "food: pizza, quantity: 2, unit: slices"
+  },
+  {
+    "input": "I ate 300g of chicken, actually more like 200g",
+    "output": "food: chicken, quantity: 200, unit: g"
+  },
+  {
+    "input": "3 cups of rice, no wait 1 cup",
+    "output": "food: rice, quantity: 1, unit: cups"
+  },
+  {
+    "input": "maybe 4 servings of oatmeal, I mean 1 serving",
+    "output": "food: oatmeal, quantity: 1, unit: serving"
+  },
+  {
+    "input": "200g pasta, scratch that, 350g",
+    "output": "food: pasta, quantity: 350, unit: g"
+  },
+  {
+    "input": "had 3 cookies, actually just 2",
+    "output": "food: cookies, quantity: 2, unit: pieces"
+  },
+  {
+    "input": "thought it was 500g beef, actually 300g",
+    "output": "food: beef, quantity: 300, unit: g"
+  },
+  {
+    "input": "I think I had 4 eggs, no wait only 2 eggs",
+    "output": "food: eggs, quantity: 2, unit: pieces"
+  },
+  {
+    "input": "ate about 200g salmon, realised it was 150g",
+    "output": "food: salmon, quantity: 150, unit: g"
+  },
+  {
+    "input": "10 wings I think, actually 6 wings",
+    "output": "food: wings, quantity: 6, unit: pieces"
+  },
+  {
+    "input": "three slices of toast, nope two slices",
+    "output": "food: toast, quantity: 2, unit: slices"
+  },
+  {
+    "input": "estimated 400ml smoothie, measured it was 300ml",
+    "output": "food: smoothie, quantity: 300, unit: ml"
+  },
+  {
+    "input": "not sure but had like 5 slices of pizza, wait no just 2",
+    "output": "food: pizza, quantity: 2, unit: slices"
+  },
+  {
+    "input": "kinda I ate 300g of chicken, actually it was 200g",
+    "output": "food: chicken, quantity: 200, unit: g"
+  },
+  {
+    "input": "uhh 400ml smoothie I think, measured it was 300ml",
+    "output": "food: smoothie, quantity: 300, unit: ml"
+  },
+  {
+    "input": "maybe like I had 4 eggs, no definitely just 2",
+    "output": "food: eggs, quantity: 2, unit: pieces"
+  },
+  {
+    "input": "Estimated 350g wrap, weighed it was 290g",
+    "output": "food: wrap, quantity: 290, unit: g"
+  },
+  {
+    "input": "Thought it was 400g salmon, actually 250g on the scale",
+    "output": "food: salmon, quantity: 250, unit: g"
+  },
+  {
+    "input": "First thought 3 servings, actually 1 serving of pasta",
+    "output": "food: pasta, quantity: 1, unit: servings"
+  },
+  {
+    "input": "Guessed 200g chicken, measured 150g",
+    "output": "food: chicken, quantity: 150, unit: g"
+  },
+  {
+    "input": "had a wrap for lunch",
+    "output": "food: wrap, quantity: null, unit: null"
+  },
+  {
+    "input": "had some pasta for dinner",
+    "output": "food: pasta, quantity: null, unit: null"
+  },
+  {
+    "input": "had oatmeal for breakfast",
+    "output": "food: oatmeal, quantity: null, unit: null"
+  },
+  {
+    "input": "had a banana for a snack",
+    "output": "food: banana, quantity: null, unit: null"
+  },
+  {
+    "input": "had 200g wrap for lunch",
+    "output": "food: wrap, quantity: 200, unit: g"
+  },
+  {
+    "input": "had 350g pasta for dinner",
+    "output": "food: pasta, quantity: 350, unit: g"
+  },
+  {
+    "input": "had 2 eggs for breakfast",
+    "output": "food: eggs, quantity: 2, unit: pieces"
+  },
+  {
+    "input": "had 3 pieces of sushi for lunch",
+    "output": "food: sushi, quantity: 3, unit: pieces"
+  },
+  {
+    "input": "had chicken and rice for dinner",
+    "output": "food: chicken, quantity: null, unit: null|food: rice, quantity: null, unit: null"
+  },
+  {
+    "input": "had 300g chicken and 1 cup of rice for dinner",
+    "output": "food: chicken, quantity: 300, unit: g|food: rice, quantity: 1, unit: cup"
+  },
+  {
+    "input": "I drank a rockstar",
+    "output": "food: rockstar, quantity: null, unit: null"
+  },
+  {
+    "input": "I drank one rockstar",
+    "output": "food: rockstar, quantity: 1, unit: null"
+  },
+  {
+    "input": "drank 500ml of water",
+    "output": "food: water, quantity: 500, unit: ml"
+  },
+  {
+    "input": "drank 2 cans of coke",
+    "output": "food: coke, quantity: 2, unit: cans"
+  },
+  {
+    "input": "drank a beer",
+    "output": "food: beer, quantity: null, unit: null"
+  },
+  {
+    "input": "drank an energy drink",
+    "output": "food: energy drink, quantity: null, unit: null"
+  },
+  {
+    "input": "drank one energy drink",
+    "output": "food: energy drink, quantity: 1, unit: null"
+  },
+  {
+    "input": "drank 3 glasses of water",
+    "output": "food: water, quantity: 3, unit: glasses"
+  },
+  {
+    "input": "drank a protein shake",
+    "output": "food: protein shake, quantity: null, unit: null"
+  },
+  {
+    "input": "drank 400ml protein shake",
+    "output": "food: protein shake, quantity: 400, unit: ml"
+  },
+  {
+    "input": "drank a coffee",
+    "output": "food: coffee, quantity: null, unit: null"
+  },
+  {
+    "input": "drank 2 cups of coffee",
+    "output": "food: coffee, quantity: 2, unit: cups"
+  },
+  {
+    "input": "drank a glass of orange juice",
+    "output": "food: orange juice, quantity: 1, unit: glass"
+  },
+  {
+    "input": "I ate pasta and drank a beer",
+    "output": "food: pasta, quantity: null, unit: null|food: beer, quantity: null, unit: null"
+  },
+  {
+    "input": "ate 300g chicken and drank a protein shake",
+    "output": "food: chicken, quantity: 300, unit: g|food: protein shake, quantity: null, unit: null"
+  },
+  {
+    "input": "ate a burger and drank a coke",
+    "output": "food: burger, quantity: null, unit: null|food: coke, quantity: null, unit: null"
+  },
+  {
+    "input": "I ate some pasta and drank a glass of orange juice",
+    "output": "food: pasta, quantity: null, unit: null|food: orange juice, quantity: 1, unit: glass"
+  },
+  {
+    "input": "ate 200g rice and drank 500ml water",
+    "output": "food: rice, quantity: 200, unit: g|food: water, quantity: 500, unit: ml"
+  },
+  {
+    "input": "drank one energy drink and had 200g of chicken",
+    "output": "food: energy drink, quantity: 1, unit: null|food: chicken, quantity: 200, unit: g"
+  },
+  {
+    "input": "had a sandwich and drank a coffee",
+    "output": "food: sandwich, quantity: null, unit: null|food: coffee, quantity: null, unit: null"
+  },
+  {
+    "input": "ate 150g honey and a kebab and drank one rockstar",
+    "output": "food: honey, quantity: 150, unit: g|food: kebab, quantity: null, unit: null|food: rockstar, quantity: 1, unit: null"
+  },
+  {
+    "input": "had pizza and also drank a beer",
+    "output": "food: pizza, quantity: null, unit: null|food: beer, quantity: null, unit: null"
+  },
+  {
+    "input": "I also drank one rockstar",
+    "output": "food: rockstar, quantity: 1, unit: null"
+  },
+  {
+    "input": "I also drank a coke",
+    "output": "food: coke, quantity: null, unit: null"
+  },
+  {
+    "input": "also drank 2 cans of red bull",
+    "output": "food: red bull, quantity: 2, unit: cans"
+  },
+  {
+    "input": "sipped a coffee",
+    "output": "food: coffee, quantity: null, unit: null"
+  },
+  {
+    "input": "downed a protein shake",
+    "output": "food: protein shake, quantity: null, unit: null"
+  },
+  {
+    "input": "downed one rockstar energy drink",
+    "output": "food: rockstar energy drink, quantity: 1, unit: null"
+  },
+  {
+    "input": "uhh I drank a rockstar and ate some chips",
+    "output": "food: rockstar, quantity: null, unit: null|food: chips, quantity: null, unit: null"
+  },
+  {
+    "input": "Today I ate 150g honey and drank one rockstar",
+    "output": "food: honey, quantity: 150, unit: g|food: rockstar, quantity: 1, unit: null"
+  },
+  {
+    "input": "not sure but I drank 2 cans of coke and had a burger",
+    "output": "food: coke, quantity: 2, unit: cans|food: burger, quantity: null, unit: null"
+  },
+  {
+    "input": "Snack was some chips and I drank a sparkling water",
+    "output": "food: chips, quantity: null, unit: null|food: sparkling water, quantity: null, unit: null"
+  },
+  {
+    "input": "For lunch I had a sandwich and drank an iced tea",
+    "output": "food: sandwich, quantity: null, unit: null|food: iced tea, quantity: null, unit: null"
+  },
+  {
+    "input": "Dinner was 250g steak and I drank a glass of wine",
+    "output": "food: steak, quantity: 250, unit: g|food: wine, quantity: 1, unit: glass"
   }
 ]

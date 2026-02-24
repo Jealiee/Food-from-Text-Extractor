@@ -1,0 +1,1158 @@
+[
+  {
+    "input": "It was one of those Tuesdays where everything moved kind of slow. Had a meeting first thing that dragged on way longer than it needed to. Finally got a break around noon and decided to head out for lunch. There's this Italian place a few streets over that I keep meaning to try. Ended up going there and ordering some pasta off the specials board.",
+    "output": "food: pasta, quantity: null, unit: null"
+  },
+  {
+    "input": "It was one of those Tuesdays where everything moved kind of slow. Had a meeting first thing that dragged on way longer than it needed to. Finally got a break around noon and decided to head out for lunch. There's this Italian place a few streets over that I keep meaning to try. Ended up going there and ordering some pasta off the specials board. The waiter recommended the one with the roasted tomato and it was a good call.",
+    "output": "food: pasta, quantity: null, unit: null"
+  },
+  {
+    "input": "It was one of those Tuesdays where everything moved kind of slow. Had a meeting first thing that dragged on way longer than it needed to. Finally got a break around noon and decided to head out for lunch. There's this Italian place a few streets over that I keep meaning to try. Ended up going there and ordering some pasta off the specials board. The waiter recommended the one with the roasted tomato and it was a good call. Went back to the office after and had a pretty productive afternoon.",
+    "output": "food: pasta, quantity: null, unit: null"
+  },
+  {
+    "input": "It was one of those Tuesdays where everything moved kind of slow. Had a meeting first thing that dragged on way longer than it needed to. Finally got a break around noon and decided to head out for lunch. There's this Italian place a few streets over that I keep meaning to try. Ended up going there and ordering some pasta off the specials board. The waiter recommended the one with the roasted tomato and it was a good call. Went back to the office after and had a pretty productive afternoon. Anyway, the pasta portion was generous, about 350g I'd say.",
+    "output": "food: pasta, quantity: 350, unit: g"
+  },
+  {
+    "input": "Rough day at work, back-to-back calls from about 9 until 4. Traffic was a nightmare on the way home, took nearly an hour. Stopped at the takeaway near my flat and grabbed some grilled chicken.",
+    "output": "food: grilled chicken, quantity: null, unit: null"
+  },
+  {
+    "input": "Rough day at work, back-to-back calls from about 9 until 4. Traffic was a nightmare on the way home, took nearly an hour. Stopped at the takeaway near my flat and grabbed some grilled chicken. Also picked up some white rice to go with it.",
+    "output": "food: grilled chicken, quantity: null, unit: null|food: white rice, quantity: null, unit: null"
+  },
+  {
+    "input": "Rough day at work, back-to-back calls from about 9 until 4. Traffic was a nightmare on the way home, took nearly an hour. Stopped at the takeaway near my flat and grabbed some grilled chicken. Also picked up some white rice to go with it. Got home, dumped everything on the table and just sat for a while.",
+    "output": "food: grilled chicken, quantity: null, unit: null|food: white rice, quantity: null, unit: null"
+  },
+  {
+    "input": "Rough day at work, back-to-back calls from about 9 until 4. Traffic was a nightmare on the way home, took nearly an hour. Stopped at the takeaway near my flat and grabbed some grilled chicken. Also picked up some white rice to go with it. Got home, dumped everything on the table and just sat for a while. Put on something mindless on TV and ate while watching.",
+    "output": "food: grilled chicken, quantity: null, unit: null|food: white rice, quantity: null, unit: null"
+  },
+  {
+    "input": "Rough day at work, back-to-back calls from about 9 until 4. Traffic was a nightmare on the way home, took nearly an hour. Stopped at the takeaway near my flat and grabbed some grilled chicken. Also picked up some white rice to go with it. Got home, dumped everything on the table and just sat for a while. Put on something mindless on TV and ate while watching. The chicken breast was decent, maybe around 200g.",
+    "output": "food: grilled chicken, quantity: 200, unit: g|food: white rice, quantity: null, unit: null"
+  },
+  {
+    "input": "Rough day at work, back-to-back calls from about 9 until 4. Traffic was a nightmare on the way home, took nearly an hour. Stopped at the takeaway near my flat and grabbed some grilled chicken. Also picked up some white rice to go with it. Got home, dumped everything on the table and just sat for a while. Put on something mindless on TV and ate while watching. The chicken breast was decent, maybe around 200g. Rice was just a small scoop from the container, about 1 cup.",
+    "output": "food: grilled chicken, quantity: 200, unit: g|food: white rice, quantity: 1, unit: cup"
+  },
+  {
+    "input": "Alarm went off at half seven and for once I didn't snooze it. Made a proper breakfast for a change instead of just coffee. Went with oatmeal on the stove, the proper rolled oats kind.",
+    "output": "food: oatmeal, quantity: null, unit: null"
+  },
+  {
+    "input": "Alarm went off at half seven and for once I didn't snooze it. Made a proper breakfast for a change instead of just coffee. Went with oatmeal on the stove, the proper rolled oats kind. Put some honey and a few blueberries on top.",
+    "output": "food: oatmeal, quantity: null, unit: null"
+  },
+  {
+    "input": "Alarm went off at half seven and for once I didn't snooze it. Made a proper breakfast for a change instead of just coffee. Went with oatmeal on the stove, the proper rolled oats kind. Put some honey and a few blueberries on top. Was reading the news on my phone while it cooled down.",
+    "output": "food: oatmeal, quantity: null, unit: null"
+  },
+  {
+    "input": "Alarm went off at half seven and for once I didn't snooze it. Made a proper breakfast for a change instead of just coffee. Went with oatmeal on the stove, the proper rolled oats kind. Put some honey and a few blueberries on top. Was reading the news on my phone while it cooled down. Had to leave by quarter past eight to catch my bus.",
+    "output": "food: oatmeal, quantity: null, unit: null"
+  },
+  {
+    "input": "Alarm went off at half seven and for once I didn't snooze it. Made a proper breakfast for a change instead of just coffee. Went with oatmeal on the stove, the proper rolled oats kind. Put some honey and a few blueberries on top. Was reading the news on my phone while it cooled down. Had to leave by quarter past eight to catch my bus. Managed to finish everything before I had to go.",
+    "output": "food: oatmeal, quantity: null, unit: null"
+  },
+  {
+    "input": "Alarm went off at half seven and for once I didn't snooze it. Made a proper breakfast for a change instead of just coffee. Went with oatmeal on the stove, the proper rolled oats kind. Put some honey and a few blueberries on top. Was reading the news on my phone while it cooled down. Had to leave by quarter past eight to catch my bus. Managed to finish everything before I had to go. Dry weight for the oats was about 80g.",
+    "output": "food: oatmeal, quantity: 80, unit: g"
+  },
+  {
+    "input": "Had a gym session booked for 6pm so I couldn't eat too much during the day. Work was fairly quiet, just a few emails and a bit of admin. Around 4 I grabbed a protein bar and some almonds to fuel up before going.",
+    "output": "food: protein bar, quantity: null, unit: null|food: almonds, quantity: null, unit: null"
+  },
+  {
+    "input": "Had a gym session booked for 6pm so I couldn't eat too much during the day. Work was fairly quiet, just a few emails and a bit of admin. Around 4 I grabbed a protein bar and some almonds to fuel up before going. The gym was pretty quiet on a Wednesday evening which was nice.",
+    "output": "food: protein bar, quantity: null, unit: null|food: almonds, quantity: null, unit: null"
+  },
+  {
+    "input": "Had a gym session booked for 6pm so I couldn't eat too much during the day. Work was fairly quiet, just a few emails and a bit of admin. Around 4 I grabbed a protein bar and some almonds to fuel up before going. The gym was pretty quiet on a Wednesday evening which was nice. Did mostly upper body, felt strong today.",
+    "output": "food: protein bar, quantity: null, unit: null|food: almonds, quantity: null, unit: null"
+  },
+  {
+    "input": "Had a gym session booked for 6pm so I couldn't eat too much during the day. Work was fairly quiet, just a few emails and a bit of admin. Around 4 I grabbed a protein bar and some almonds to fuel up before going. The gym was pretty quiet on a Wednesday evening which was nice. Did mostly upper body, felt strong today. The protein bar was the big 70g one, not the small kind.",
+    "output": "food: protein bar, quantity: 70, unit: g|food: almonds, quantity: null, unit: null"
+  },
+  {
+    "input": "Had a gym session booked for 6pm so I couldn't eat too much during the day. Work was fairly quiet, just a few emails and a bit of admin. Around 4 I grabbed a protein bar and some almonds to fuel up before going. The gym was pretty quiet on a Wednesday evening which was nice. Did mostly upper body, felt strong today. The protein bar was the big 70g one, not the small kind. Almonds were just a small handful I grabbed from the bag, like 20g.",
+    "output": "food: protein bar, quantity: 70, unit: g|food: almonds, quantity: 20, unit: g"
+  },
+  {
+    "input": "Had a gym session booked for 6pm so I couldn't eat too much during the day. Work was fairly quiet, just a few emails and a bit of admin. Around 4 I grabbed a protein bar and some almonds to fuel up before going. The gym was pretty quiet on a Wednesday evening which was nice. Did mostly upper body, felt strong today. The protein bar was the big 70g one, not the small kind. Almonds were just a small handful I grabbed from the bag, like 20g. Stopped for a stretch and a shower and was home by 8.",
+    "output": "food: protein bar, quantity: 70, unit: g|food: almonds, quantity: 20, unit: g"
+  },
+  {
+    "input": "Big social weekend, had a dinner party at my friend's place on Saturday. There were about eight of us which was a fun size for a gathering. The host had put together a big spread with a few different dishes on the table. I helped myself to some salmon and vegetables.",
+    "output": "food: salmon, quantity: null, unit: null|food: vegetables, quantity: null, unit: null"
+  },
+  {
+    "input": "Big social weekend, had a dinner party at my friend's place on Saturday. There were about eight of us which was a fun size for a gathering. The host had put together a big spread with a few different dishes on the table. I helped myself to some salmon and vegetables. The conversation was great and we all ended up staying until pretty late.",
+    "output": "food: salmon, quantity: null, unit: null|food: vegetables, quantity: null, unit: null"
+  },
+  {
+    "input": "Big social weekend, had a dinner party at my friend's place on Saturday. There were about eight of us which was a fun size for a gathering. The host had put together a big spread with a few different dishes on the table. I helped myself to some salmon and vegetables. The conversation was great and we all ended up staying until pretty late. Someone brought wine which was a nice touch.",
+    "output": "food: salmon, quantity: null, unit: null|food: vegetables, quantity: null, unit: null"
+  },
+  {
+    "input": "Big social weekend, had a dinner party at my friend's place on Saturday. There were about eight of us which was a fun size for a gathering. The host had put together a big spread with a few different dishes on the table. I helped myself to some salmon and vegetables. The conversation was great and we all ended up staying until pretty late. Someone brought wine which was a nice touch. I was loosely trying to keep track of what I ate.",
+    "output": "food: salmon, quantity: null, unit: null|food: vegetables, quantity: null, unit: null"
+  },
+  {
+    "input": "Big social weekend, had a dinner party at my friend's place on Saturday. There were about eight of us which was a fun size for a gathering. The host had put together a big spread with a few different dishes on the table. I helped myself to some salmon and vegetables. The conversation was great and we all ended up staying until pretty late. Someone brought wine which was a nice touch. I was loosely trying to keep track of what I ate. The salmon portion was about 180g by my estimate.",
+    "output": "food: salmon, quantity: 180, unit: g|food: vegetables, quantity: null, unit: null"
+  },
+  {
+    "input": "Had a fairly standard work day today, nothing particularly interesting. Skipped breakfast which I know I shouldn't do. Went to the cafe around the corner from the office for lunch. They had a chicken sandwich and some soup on the board.",
+    "output": "food: chicken sandwich, quantity: null, unit: null|food: soup, quantity: null, unit: null"
+  },
+  {
+    "input": "Had a fairly standard work day today, nothing particularly interesting. Skipped breakfast which I know I shouldn't do. Went to the cafe around the corner from the office for lunch. They had a chicken sandwich and some soup on the board. It was getting busy so I had to eat quickly to get back.",
+    "output": "food: chicken sandwich, quantity: null, unit: null|food: soup, quantity: null, unit: null"
+  },
+  {
+    "input": "Had a fairly standard work day today, nothing particularly interesting. Skipped breakfast which I know I shouldn't do. Went to the cafe around the corner from the office for lunch. They had a chicken sandwich and some soup on the board. It was getting busy so I had to eat quickly to get back. The sandwich was decent but a bit overpriced for what it was.",
+    "output": "food: chicken sandwich, quantity: null, unit: null|food: soup, quantity: null, unit: null"
+  },
+  {
+    "input": "Had a fairly standard work day today, nothing particularly interesting. Skipped breakfast which I know I shouldn't do. Went to the cafe around the corner from the office for lunch. They had a chicken sandwich and some soup on the board. It was getting busy so I had to eat quickly to get back. The sandwich was decent but a bit overpriced for what it was. Had some admin to wrap up in the afternoon, then a quick call.",
+    "output": "food: chicken sandwich, quantity: null, unit: null|food: soup, quantity: null, unit: null"
+  },
+  {
+    "input": "Had a fairly standard work day today, nothing particularly interesting. Skipped breakfast which I know I shouldn't do. Went to the cafe around the corner from the office for lunch. They had a chicken sandwich and some soup on the board. It was getting busy so I had to eat quickly to get back. The sandwich was decent but a bit overpriced for what it was. Had some admin to wrap up in the afternoon, then a quick call. The soup was just a side cup, maybe 200ml.",
+    "output": "food: chicken sandwich, quantity: null, unit: null|food: soup, quantity: 200, unit: ml"
+  },
+  {
+    "input": "Did my Sunday meal prep today, got up at 10 and spent about two hours in the kitchen. The plan for the week is chicken breast, brown rice, and broccoli.",
+    "output": "food: chicken breast, quantity: null, unit: null|food: brown rice, quantity: null, unit: null|food: broccoli, quantity: null, unit: null"
+  },
+  {
+    "input": "Did my Sunday meal prep today, got up at 10 and spent about two hours in the kitchen. The plan for the week is chicken breast, brown rice, and broccoli. Put on a podcast while I was cooking, made the whole thing much more enjoyable.",
+    "output": "food: chicken breast, quantity: null, unit: null|food: brown rice, quantity: null, unit: null|food: broccoli, quantity: null, unit: null"
+  },
+  {
+    "input": "Did my Sunday meal prep today, got up at 10 and spent about two hours in the kitchen. The plan for the week is chicken breast, brown rice, and broccoli. Put on a podcast while I was cooking, made the whole thing much more enjoyable. Got everything portioned out into containers when it was done.",
+    "output": "food: chicken breast, quantity: null, unit: null|food: brown rice, quantity: null, unit: null|food: broccoli, quantity: null, unit: null"
+  },
+  {
+    "input": "Did my Sunday meal prep today, got up at 10 and spent about two hours in the kitchen. The plan for the week is chicken breast, brown rice, and broccoli. Put on a podcast while I was cooking, made the whole thing much more enjoyable. Got everything portioned out into containers when it was done. Each serving of the chicken breast came out to about 150g.",
+    "output": "food: chicken breast, quantity: 150, unit: g|food: brown rice, quantity: null, unit: null|food: broccoli, quantity: null, unit: null"
+  },
+  {
+    "input": "Did my Sunday meal prep today, got up at 10 and spent about two hours in the kitchen. The plan for the week is chicken breast, brown rice, and broccoli. Put on a podcast while I was cooking, made the whole thing much more enjoyable. Got everything portioned out into containers when it was done. Each serving of the chicken breast came out to about 150g. Rice was approximately 200g cooked per container.",
+    "output": "food: chicken breast, quantity: 150, unit: g|food: brown rice, quantity: 200, unit: g|food: broccoli, quantity: null, unit: null"
+  },
+  {
+    "input": "Did my Sunday meal prep today, got up at 10 and spent about two hours in the kitchen. The plan for the week is chicken breast, brown rice, and broccoli. Put on a podcast while I was cooking, made the whole thing much more enjoyable. Got everything portioned out into containers when it was done. Each serving of the chicken breast came out to about 150g. Rice was approximately 200g cooked per container. Threw some broccoli in each one too, roughly 80g.",
+    "output": "food: chicken breast, quantity: 150, unit: g|food: brown rice, quantity: 200, unit: g|food: broccoli, quantity: 80, unit: g"
+  },
+  {
+    "input": "Did my Sunday meal prep today, got up at 10 and spent about two hours in the kitchen. The plan for the week is chicken breast, brown rice, and broccoli. Put on a podcast while I was cooking, made the whole thing much more enjoyable. Got everything portioned out into containers when it was done. Each serving of the chicken breast came out to about 150g. Rice was approximately 200g cooked per container. Threw some broccoli in each one too, roughly 80g. Should cover me for lunch Monday through Thursday at least.",
+    "output": "food: chicken breast, quantity: 150, unit: g|food: brown rice, quantity: 200, unit: g|food: broccoli, quantity: 80, unit: g"
+  },
+  {
+    "input": "Tracked everything I ate today, trying to be more consistent with it. Morning, afternoon, evening, just noted it all down as I went. Had cereal for breakfast and a salad at lunch and salmon for dinner.",
+    "output": "food: cereal, quantity: null, unit: null|food: salad, quantity: null, unit: null|food: salmon, quantity: null, unit: null"
+  },
+  {
+    "input": "Tracked everything I ate today, trying to be more consistent with it. Morning, afternoon, evening, just noted it all down as I went. Had cereal for breakfast and a salad at lunch and salmon for dinner. Measured the cereal this time, 50g.",
+    "output": "food: cereal, quantity: 50, unit: g|food: salad, quantity: null, unit: null|food: salmon, quantity: null, unit: null"
+  },
+  {
+    "input": "Tracked everything I ate today, trying to be more consistent with it. Morning, afternoon, evening, just noted it all down as I went. Had cereal for breakfast and a salad at lunch and salmon for dinner. Measured the cereal this time, 50g. The salad was just a big mixed one from the shop, no idea of the weight.",
+    "output": "food: cereal, quantity: 50, unit: g|food: salad, quantity: null, unit: null|food: salmon, quantity: null, unit: null"
+  },
+  {
+    "input": "Tracked everything I ate today, trying to be more consistent with it. Morning, afternoon, evening, just noted it all down as I went. Had cereal for breakfast and a salad at lunch and salmon for dinner. Measured the cereal this time, 50g. The salad was just a big mixed one from the shop, no idea of the weight. Late evening I was still a bit hungry and had a couple of crackers.",
+    "output": "food: cereal, quantity: 50, unit: g|food: salad, quantity: null, unit: null|food: salmon, quantity: null, unit: null"
+  },
+  {
+    "input": "Tracked everything I ate today, trying to be more consistent with it. Morning, afternoon, evening, just noted it all down as I went. Had cereal for breakfast and a salad at lunch and salmon for dinner. Measured the cereal this time, 50g. The salad was just a big mixed one from the shop, no idea of the weight. Late evening I was still a bit hungry and had a couple of crackers. The salmon fillet I actually weighed on the kitchen scale.",
+    "output": "food: cereal, quantity: 50, unit: g|food: salad, quantity: null, unit: null|food: salmon, quantity: null, unit: null"
+  },
+  {
+    "input": "Tracked everything I ate today, trying to be more consistent with it. Morning, afternoon, evening, just noted it all down as I went. Had cereal for breakfast and a salad at lunch and salmon for dinner. Measured the cereal this time, 50g. The salad was just a big mixed one from the shop, no idea of the weight. Late evening I was still a bit hungry and had a couple of crackers. The salmon fillet I actually weighed on the kitchen scale. Came to 220g which is pretty standard for a fillet.",
+    "output": "food: cereal, quantity: 50, unit: g|food: salad, quantity: null, unit: null|food: salmon, quantity: 220, unit: g"
+  },
+  {
+    "input": "Was working from home today which always makes me snack more. Had a couple of long video calls in the morning so I was stuck at my desk. Around 10 I had some nuts.",
+    "output": "food: nuts, quantity: null, unit: null"
+  },
+  {
+    "input": "Was working from home today which always makes me snack more. Had a couple of long video calls in the morning so I was stuck at my desk. Around 10 I had some nuts. Then got pulled back into the calls and didn't eat much until the afternoon.",
+    "output": "food: nuts, quantity: null, unit: null"
+  },
+  {
+    "input": "Was working from home today which always makes me snack more. Had a couple of long video calls in the morning so I was stuck at my desk. Around 10 I had some nuts. Then got pulled back into the calls and didn't eat much until the afternoon. Had an apple around 3pm.",
+    "output": "food: nuts, quantity: null, unit: null|food: apple, quantity: null, unit: null"
+  },
+  {
+    "input": "Was working from home today which always makes me snack more. Had a couple of long video calls in the morning so I was stuck at my desk. Around 10 I had some nuts. Then got pulled back into the calls and didn't eat much until the afternoon. Had an apple around 3pm. Did a quick walk around the block just to get out of the flat.",
+    "output": "food: nuts, quantity: null, unit: null|food: apple, quantity: null, unit: null"
+  },
+  {
+    "input": "Was working from home today which always makes me snack more. Had a couple of long video calls in the morning so I was stuck at my desk. Around 10 I had some nuts. Then got pulled back into the calls and didn't eat much until the afternoon. Had an apple around 3pm. Did a quick walk around the block just to get out of the flat. Made dinner in the evening, nothing too heavy.",
+    "output": "food: nuts, quantity: null, unit: null|food: apple, quantity: null, unit: null"
+  },
+  {
+    "input": "Was working from home today which always makes me snack more. Had a couple of long video calls in the morning so I was stuck at my desk. Around 10 I had some nuts. Then got pulled back into the calls and didn't eat much until the afternoon. Had an apple around 3pm. Did a quick walk around the block just to get out of the flat. Made dinner in the evening, nothing too heavy. The nuts were about 30g when I measured them.",
+    "output": "food: nuts, quantity: 30, unit: g|food: apple, quantity: null, unit: null"
+  },
+  {
+    "input": "Was working from home today which always makes me snack more. Had a couple of long video calls in the morning so I was stuck at my desk. Around 10 I had some nuts. Then got pulled back into the calls and didn't eat much until the afternoon. Had an apple around 3pm. Did a quick walk around the block just to get out of the flat. Made dinner in the evening, nothing too heavy. The nuts were about 30g when I measured them. The apple was a decent medium size, call it 150g.",
+    "output": "food: nuts, quantity: 30, unit: g|food: apple, quantity: 150, unit: g"
+  },
+  {
+    "input": "Went to my friend's birthday party last night, it was a pretty good time. They'd hired out a room at a bar in the city centre. There was a buffet spread laid out which I definitely took advantage of. Had some cake, chips, and those little sandwich triangles.",
+    "output": "food: cake, quantity: null, unit: null|food: chips, quantity: null, unit: null|food: sandwich triangles, quantity: null, unit: null"
+  },
+  {
+    "input": "Went to my friend's birthday party last night, it was a pretty good time. They'd hired out a room at a bar in the city centre. There was a buffet spread laid out which I definitely took advantage of. Had some cake, chips, and those little sandwich triangles. Ended up chatting for hours, completely lost track of time.",
+    "output": "food: cake, quantity: null, unit: null|food: chips, quantity: null, unit: null|food: sandwich triangles, quantity: null, unit: null"
+  },
+  {
+    "input": "Went to my friend's birthday party last night, it was a pretty good time. They'd hired out a room at a bar in the city centre. There was a buffet spread laid out which I definitely took advantage of. Had some cake, chips, and those little sandwich triangles. Ended up chatting for hours, completely lost track of time. The music was a bit loud but the vibe was good.",
+    "output": "food: cake, quantity: null, unit: null|food: chips, quantity: null, unit: null|food: sandwich triangles, quantity: null, unit: null"
+  },
+  {
+    "input": "Went to my friend's birthday party last night, it was a pretty good time. They'd hired out a room at a bar in the city centre. There was a buffet spread laid out which I definitely took advantage of. Had some cake, chips, and those little sandwich triangles. Ended up chatting for hours, completely lost track of time. The music was a bit loud but the vibe was good. The cake slice was a generous one, probably around 200g.",
+    "output": "food: cake, quantity: 200, unit: g|food: chips, quantity: null, unit: null|food: sandwich triangles, quantity: null, unit: null"
+  },
+  {
+    "input": "Went to my friend's birthday party last night, it was a pretty good time. They'd hired out a room at a bar in the city centre. There was a buffet spread laid out which I definitely took advantage of. Had some cake, chips, and those little sandwich triangles. Ended up chatting for hours, completely lost track of time. The music was a bit loud but the vibe was good. The cake slice was a generous one, probably around 200g. I kept picking at the chips throughout the night, probably 50g total.",
+    "output": "food: cake, quantity: 200, unit: g|food: chips, quantity: 50, unit: g|food: sandwich triangles, quantity: null, unit: null"
+  },
+  {
+    "input": "Went to my friend's birthday party last night, it was a pretty good time. They'd hired out a room at a bar in the city centre. There was a buffet spread laid out which I definitely took advantage of. Had some cake, chips, and those little sandwich triangles. Ended up chatting for hours, completely lost track of time. The music was a bit loud but the vibe was good. The cake slice was a generous one, probably around 200g. I kept picking at the chips throughout the night, probably 50g total. Had maybe 3 sandwich triangles over the course of the evening.",
+    "output": "food: cake, quantity: 200, unit: g|food: chips, quantity: 50, unit: g|food: sandwich triangles, quantity: 3, unit: pieces"
+  },
+  {
+    "input": "Work has been stressful lately and today was particularly rough. Had a meeting where nothing went the way it was supposed to. Got home late and just wanted to switch off completely. Ended up having some ice cream and cookies, total comfort food situation.",
+    "output": "food: ice cream, quantity: null, unit: null|food: cookies, quantity: null, unit: null"
+  },
+  {
+    "input": "Work has been stressful lately and today was particularly rough. Had a meeting where nothing went the way it was supposed to. Got home late and just wanted to switch off completely. Ended up having some ice cream and cookies, total comfort food situation. Put on the TV and just let myself decompress for a bit.",
+    "output": "food: ice cream, quantity: null, unit: null|food: cookies, quantity: null, unit: null"
+  },
+  {
+    "input": "Work has been stressful lately and today was particularly rough. Had a meeting where nothing went the way it was supposed to. Got home late and just wanted to switch off completely. Ended up having some ice cream and cookies, total comfort food situation. Put on the TV and just let myself decompress for a bit. I know it's not ideal but sometimes you just need it.",
+    "output": "food: ice cream, quantity: null, unit: null|food: cookies, quantity: null, unit: null"
+  },
+  {
+    "input": "Work has been stressful lately and today was particularly rough. Had a meeting where nothing went the way it was supposed to. Got home late and just wanted to switch off completely. Ended up having some ice cream and cookies, total comfort food situation. Put on the TV and just let myself decompress for a bit. I know it's not ideal but sometimes you just need it. The ice cream was a whole pint.",
+    "output": "food: ice cream, quantity: 1, unit: pint|food: cookies, quantity: null, unit: null"
+  },
+  {
+    "input": "Work has been stressful lately and today was particularly rough. Had a meeting where nothing went the way it was supposed to. Got home late and just wanted to switch off completely. Ended up having some ice cream and cookies, total comfort food situation. Put on the TV and just let myself decompress for a bit. I know it's not ideal but sometimes you just need it. The ice cream was a whole pint. And around 4 cookies.",
+    "output": "food: ice cream, quantity: 1, unit: pint|food: cookies, quantity: 4, unit: pieces"
+  },
+  {
+    "input": "Work has been stressful lately and today was particularly rough. Had a meeting where nothing went the way it was supposed to. Got home late and just wanted to switch off completely. Ended up having some ice cream and cookies, total comfort food situation. Put on the TV and just let myself decompress for a bit. I know it's not ideal but sometimes you just need it. The ice cream was a whole pint. And around 4 cookies. Felt better immediately and worse an hour later, classic.",
+    "output": "food: ice cream, quantity: 1, unit: pint|food: cookies, quantity: 4, unit: pieces"
+  },
+  {
+    "input": "Early morning flight today, had to be at the airport by 5:30am. Set two alarms just to be safe and somehow still felt rushed. At the airport I grabbed a coffee and a muffin from one of the cafes.",
+    "output": "food: coffee, quantity: null, unit: null|food: muffin, quantity: null, unit: null"
+  },
+  {
+    "input": "Early morning flight today, had to be at the airport by 5:30am. Set two alarms just to be safe and somehow still felt rushed. At the airport I grabbed a coffee and a muffin from one of the cafes. The place was packed, lots of people on early flights too.",
+    "output": "food: coffee, quantity: null, unit: null|food: muffin, quantity: null, unit: null"
+  },
+  {
+    "input": "Early morning flight today, had to be at the airport by 5:30am. Set two alarms just to be safe and somehow still felt rushed. At the airport I grabbed a coffee and a muffin from one of the cafes. The place was packed, lots of people on early flights too. Found a seat near the gate and tried to wake up properly.",
+    "output": "food: coffee, quantity: null, unit: null|food: muffin, quantity: null, unit: null"
+  },
+  {
+    "input": "Early morning flight today, had to be at the airport by 5:30am. Set two alarms just to be safe and somehow still felt rushed. At the airport I grabbed a coffee and a muffin from one of the cafes. The place was packed, lots of people on early flights too. Found a seat near the gate and tried to wake up properly. The flight itself was only about an hour, nothing eventful.",
+    "output": "food: coffee, quantity: null, unit: null|food: muffin, quantity: null, unit: null"
+  },
+  {
+    "input": "Early morning flight today, had to be at the airport by 5:30am. Set two alarms just to be safe and somehow still felt rushed. At the airport I grabbed a coffee and a muffin from one of the cafes. The place was packed, lots of people on early flights too. Found a seat near the gate and tried to wake up properly. The flight itself was only about an hour, nothing eventful. The coffee was a standard medium, around 400ml.",
+    "output": "food: coffee, quantity: 400, unit: ml|food: muffin, quantity: null, unit: null"
+  },
+  {
+    "input": "Early morning flight today, had to be at the airport by 5:30am. Set two alarms just to be safe and somehow still felt rushed. At the airport I grabbed a coffee and a muffin from one of the cafes. The place was packed, lots of people on early flights too. Found a seat near the gate and tried to wake up properly. The flight itself was only about an hour, nothing eventful. The coffee was a standard medium, around 400ml. The muffin was one of the big blueberry ones, must have been 150g at least.",
+    "output": "food: coffee, quantity: 400, unit: ml|food: muffin, quantity: 150, unit: g"
+  },
+  {
+    "input": "Yesterday was a bit of a busy blur to be honest. Can't totally remember the exact order of things. I know I had some kind of sandwich for lunch.",
+    "output": "food: sandwich, quantity: null, unit: null"
+  },
+  {
+    "input": "Yesterday was a bit of a busy blur to be honest. Can't totally remember the exact order of things. I know I had some kind of sandwich for lunch. And some chips on the side I think.",
+    "output": "food: sandwich, quantity: null, unit: null|food: chips, quantity: null, unit: null"
+  },
+  {
+    "input": "Yesterday was a bit of a busy blur to be honest. Can't totally remember the exact order of things. I know I had some kind of sandwich for lunch. And some chips on the side I think. The afternoon was meetings back to back.",
+    "output": "food: sandwich, quantity: null, unit: null|food: chips, quantity: null, unit: null"
+  },
+  {
+    "input": "Yesterday was a bit of a busy blur to be honest. Can't totally remember the exact order of things. I know I had some kind of sandwich for lunch. And some chips on the side I think. The afternoon was meetings back to back. Got home late and went straight to bed pretty much.",
+    "output": "food: sandwich, quantity: null, unit: null|food: chips, quantity: null, unit: null"
+  },
+  {
+    "input": "Yesterday was a bit of a busy blur to be honest. Can't totally remember the exact order of things. I know I had some kind of sandwich for lunch. And some chips on the side I think. The afternoon was meetings back to back. Got home late and went straight to bed pretty much. If I had to guess, the sandwich was probably around 300g.",
+    "output": "food: sandwich, quantity: 300, unit: g|food: chips, quantity: null, unit: null"
+  },
+  {
+    "input": "Yesterday was a bit of a busy blur to be honest. Can't totally remember the exact order of things. I know I had some kind of sandwich for lunch. And some chips on the side I think. The afternoon was meetings back to back. Got home late and went straight to bed pretty much. If I had to guess, the sandwich was probably around 300g. The chips were a small bag, maybe 30g.",
+    "output": "food: sandwich, quantity: 300, unit: g|food: chips, quantity: 30, unit: g"
+  },
+  {
+    "input": "Went out for dinner with my partner tonight, we hadn't been out in a while. Booked this Italian place that's been on our list for ages. We got there and the atmosphere was really nice, candlelit and everything. I ordered the lasagna and a side salad.",
+    "output": "food: lasagna, quantity: null, unit: null|food: salad, quantity: null, unit: null"
+  },
+  {
+    "input": "Went out for dinner with my partner tonight, we hadn't been out in a while. Booked this Italian place that's been on our list for ages. We got there and the atmosphere was really nice, candlelit and everything. I ordered the lasagna and a side salad. We ended up talking for hours, the meal sort of stretched out.",
+    "output": "food: lasagna, quantity: null, unit: null|food: salad, quantity: null, unit: null"
+  },
+  {
+    "input": "Went out for dinner with my partner tonight, we hadn't been out in a while. Booked this Italian place that's been on our list for ages. We got there and the atmosphere was really nice, candlelit and everything. I ordered the lasagna and a side salad. We ended up talking for hours, the meal sort of stretched out. The service was great, attentive but not in your face.",
+    "output": "food: lasagna, quantity: null, unit: null|food: salad, quantity: null, unit: null"
+  },
+  {
+    "input": "Went out for dinner with my partner tonight, we hadn't been out in a while. Booked this Italian place that's been on our list for ages. We got there and the atmosphere was really nice, candlelit and everything. I ordered the lasagna and a side salad. We ended up talking for hours, the meal sort of stretched out. The service was great, attentive but not in your face. I had a really good time and would definitely go back.",
+    "output": "food: lasagna, quantity: null, unit: null|food: salad, quantity: null, unit: null"
+  },
+  {
+    "input": "Went out for dinner with my partner tonight, we hadn't been out in a while. Booked this Italian place that's been on our list for ages. We got there and the atmosphere was really nice, candlelit and everything. I ordered the lasagna and a side salad. We ended up talking for hours, the meal sort of stretched out. The service was great, attentive but not in your face. I had a really good time and would definitely go back. The lasagna was a solid portion, I'd estimate around 350g.",
+    "output": "food: lasagna, quantity: 350, unit: g|food: salad, quantity: null, unit: null"
+  },
+  {
+    "input": "Today was actually a really productive one, got loads done. Finished a big project I'd been working on for weeks. Had lunch at my desk somewhere in the middle of the day. Just some leftover rice and vegetables from the night before.",
+    "output": "food: rice, quantity: null, unit: null|food: vegetables, quantity: null, unit: null"
+  },
+  {
+    "input": "Today was actually a really productive one, got loads done. Finished a big project I'd been working on for weeks. Had lunch at my desk somewhere in the middle of the day. Just some leftover rice and vegetables from the night before. Did a quick tidy of my flat in the evening.",
+    "output": "food: rice, quantity: null, unit: null|food: vegetables, quantity: null, unit: null"
+  },
+  {
+    "input": "Today was actually a really productive one, got loads done. Finished a big project I'd been working on for weeks. Had lunch at my desk somewhere in the middle of the day. Just some leftover rice and vegetables from the night before. Did a quick tidy of my flat in the evening. Called my parents which I'd been meaning to do for a while.",
+    "output": "food: rice, quantity: null, unit: null|food: vegetables, quantity: null, unit: null"
+  },
+  {
+    "input": "Today was actually a really productive one, got loads done. Finished a big project I'd been working on for weeks. Had lunch at my desk somewhere in the middle of the day. Just some leftover rice and vegetables from the night before. Did a quick tidy of my flat in the evening. Called my parents which I'd been meaning to do for a while. Was a good day overall, felt like I actually accomplished stuff.",
+    "output": "food: rice, quantity: null, unit: null|food: vegetables, quantity: null, unit: null"
+  },
+  {
+    "input": "Today was actually a really productive one, got loads done. Finished a big project I'd been working on for weeks. Had lunch at my desk somewhere in the middle of the day. Just some leftover rice and vegetables from the night before. Did a quick tidy of my flat in the evening. Called my parents which I'd been meaning to do for a while. Was a good day overall, felt like I actually accomplished stuff. The rice was maybe 200g and the vegetables were around 100g.",
+    "output": "food: rice, quantity: 200, unit: g|food: vegetables, quantity: 100, unit: g"
+  },
+  {
+    "input": "Today was a really rough one, not going to lie. Nothing went right from the moment I woke up. Alarm didn't go off, I was late, and then a meeting that should have been an email. But I treated myself to some sushi for lunch to make up for it.",
+    "output": "food: sushi, quantity: null, unit: null"
+  },
+  {
+    "input": "Today was a really rough one, not going to lie. Nothing went right from the moment I woke up. Alarm didn't go off, I was late, and then a meeting that should have been an email. But I treated myself to some sushi for lunch to make up for it. Texted my friend about the day and they were very sympathetic.",
+    "output": "food: sushi, quantity: null, unit: null"
+  },
+  {
+    "input": "Today was a really rough one, not going to lie. Nothing went right from the moment I woke up. Alarm didn't go off, I was late, and then a meeting that should have been an email. But I treated myself to some sushi for lunch to make up for it. Texted my friend about the day and they were very sympathetic. The evening was quieter thankfully, just watched something on the couch.",
+    "output": "food: sushi, quantity: null, unit: null"
+  },
+  {
+    "input": "Today was a really rough one, not going to lie. Nothing went right from the moment I woke up. Alarm didn't go off, I was late, and then a meeting that should have been an email. But I treated myself to some sushi for lunch to make up for it. Texted my friend about the day and they were very sympathetic. The evening was quieter thankfully, just watched something on the couch. The sushi was like 12 pieces, really fresh.",
+    "output": "food: sushi, quantity: 12, unit: pieces"
+  },
+  {
+    "input": "Friday night, decided to get pizza and just relax.",
+    "output": "food: pizza, quantity: null, unit: null"
+  },
+  {
+    "input": "Friday night, decided to get pizza and just relax. Ordered from that place down the road that does the wood-fired ones.",
+    "output": "food: pizza, quantity: null, unit: null"
+  },
+  {
+    "input": "Friday night, decided to get pizza and just relax. Ordered from that place down the road that does the wood-fired ones. Was watching a film while eating which probably didn't help me track it.",
+    "output": "food: pizza, quantity: null, unit: null"
+  },
+  {
+    "input": "Friday night, decided to get pizza and just relax. Ordered from that place down the road that does the wood-fired ones. Was watching a film while eating which probably didn't help me track it. I had about 5 slices I think.",
+    "output": "food: pizza, quantity: 5, unit: slices"
+  },
+  {
+    "input": "Friday night, decided to get pizza and just relax. Ordered from that place down the road that does the wood-fired ones. Was watching a film while eating which probably didn't help me track it. I had about 5 slices I think. Actually hold on, looking at what's left in the box I only had 2 slices.",
+    "output": "food: pizza, quantity: 2, unit: slices"
+  },
+  {
+    "input": "Friday night, decided to get pizza and just relax. Ordered from that place down the road that does the wood-fired ones. Was watching a film while eating which probably didn't help me track it. I had about 5 slices I think. Actually hold on, looking at what's left in the box I only had 2 slices. I always overestimate how much pizza I eat.",
+    "output": "food: pizza, quantity: 2, unit: slices"
+  },
+  {
+    "input": "Friday night, decided to get pizza and just relax. Ordered from that place down the road that does the wood-fired ones. Was watching a film while eating which probably didn't help me track it. I had about 5 slices I think. Actually hold on, looking at what's left in the box I only had 2 slices. I always overestimate how much pizza I eat. The rest went in the fridge for tomorrow.",
+    "output": "food: pizza, quantity: 2, unit: slices"
+  },
+  {
+    "input": "Made steak at home tonight, been craving it all week.",
+    "output": "food: steak, quantity: null, unit: null"
+  },
+  {
+    "input": "Made steak at home tonight, been craving it all week. Got a piece from the butcher on the way home.",
+    "output": "food: steak, quantity: null, unit: null"
+  },
+  {
+    "input": "Made steak at home tonight, been craving it all week. Got a piece from the butcher on the way home. Cooked it medium rare with some garlic butter, kept it simple.",
+    "output": "food: steak, quantity: null, unit: null"
+  },
+  {
+    "input": "Made steak at home tonight, been craving it all week. Got a piece from the butcher on the way home. Cooked it medium rare with some garlic butter, kept it simple. The piece seemed smallish when I put it on the plate, I thought maybe 150g.",
+    "output": "food: steak, quantity: 150, unit: g"
+  },
+  {
+    "input": "Made steak at home tonight, been craving it all week. Got a piece from the butcher on the way home. Cooked it medium rare with some garlic butter, kept it simple. The piece seemed smallish when I put it on the plate, I thought maybe 150g. Weighed the leftovers though and it turns out I had closer to 280g.",
+    "output": "food: steak, quantity: 280, unit: g"
+  },
+  {
+    "input": "Made steak at home tonight, been craving it all week. Got a piece from the butcher on the way home. Cooked it medium rare with some garlic butter, kept it simple. The piece seemed smallish when I put it on the plate, I thought maybe 150g. Weighed the leftovers though and it turns out I had closer to 280g. No wonder I was so full.",
+    "output": "food: steak, quantity: 280, unit: g"
+  },
+  {
+    "input": "Made steak at home tonight, been craving it all week. Got a piece from the butcher on the way home. Cooked it medium rare with some garlic butter, kept it simple. The piece seemed smallish when I put it on the plate, I thought maybe 150g. Weighed the leftovers though and it turns out I had closer to 280g. No wonder I was so full. Had a glass of wine with it too, nice little mid-week treat.",
+    "output": "food: steak, quantity: 280, unit: g"
+  },
+  {
+    "input": "Breakfast was yogurt and granola, keeping it simple this morning.",
+    "output": "food: yogurt, quantity: null, unit: null|food: granola, quantity: null, unit: null"
+  },
+  {
+    "input": "Breakfast was yogurt and granola, keeping it simple this morning. Was trying to leave the house quickly so I just grabbed what was there.",
+    "output": "food: yogurt, quantity: null, unit: null|food: granola, quantity: null, unit: null"
+  },
+  {
+    "input": "Breakfast was yogurt and granola, keeping it simple this morning. Was trying to leave the house quickly so I just grabbed what was there. I think I had like 3 cups of yogurt.",
+    "output": "food: yogurt, quantity: 3, unit: cups|food: granola, quantity: null, unit: null"
+  },
+  {
+    "input": "Breakfast was yogurt and granola, keeping it simple this morning. Was trying to leave the house quickly so I just grabbed what was there. I think I had like 3 cups of yogurt. No wait that's way too much, it was more like 1 cup.",
+    "output": "food: yogurt, quantity: 1, unit: cup|food: granola, quantity: null, unit: null"
+  },
+  {
+    "input": "Breakfast was yogurt and granola, keeping it simple this morning. Was trying to leave the house quickly so I just grabbed what was there. I think I had like 3 cups of yogurt. No wait that's way too much, it was more like 1 cup. The granola was just a small sprinkle on top, not much at all.",
+    "output": "food: yogurt, quantity: 1, unit: cup|food: granola, quantity: null, unit: null"
+  },
+  {
+    "input": "Breakfast was yogurt and granola, keeping it simple this morning. Was trying to leave the house quickly so I just grabbed what was there. I think I had like 3 cups of yogurt. No wait that's way too much, it was more like 1 cup. The granola was just a small sprinkle on top, not much at all. Got out the door on time which felt like a win.",
+    "output": "food: yogurt, quantity: 1, unit: cup|food: granola, quantity: null, unit: null"
+  },
+  {
+    "input": "Breakfast was yogurt and granola, keeping it simple this morning. Was trying to leave the house quickly so I just grabbed what was there. I think I had like 3 cups of yogurt. No wait that's way too much, it was more like 1 cup. The granola was just a small sprinkle on top, not much at all. Got out the door on time which felt like a win. Had a busy morning of errands after.",
+    "output": "food: yogurt, quantity: 1, unit: cup|food: granola, quantity: null, unit: null"
+  },
+  {
+    "input": "Today was a hectic one from start to finish. Meetings all morning and then a deadline hitting in the afternoon. Barely had time to breathe let alone eat properly. Grabbed a quick bowl of fried rice and some edamame from the place nearby.",
+    "output": "food: fried rice, quantity: null, unit: null|food: edamame, quantity: null, unit: null"
+  },
+  {
+    "input": "Today was a hectic one from start to finish. Meetings all morning and then a deadline hitting in the afternoon. Barely had time to breathe let alone eat properly. Grabbed a quick bowl of fried rice and some edamame from the place nearby. Ate at my desk while still half-working which isn't ideal.",
+    "output": "food: fried rice, quantity: null, unit: null|food: edamame, quantity: null, unit: null"
+  },
+  {
+    "input": "Today was a hectic one from start to finish. Meetings all morning and then a deadline hitting in the afternoon. Barely had time to breathe let alone eat properly. Grabbed a quick bowl of fried rice and some edamame from the place nearby. Ate at my desk while still half-working which isn't ideal. I'm guessing the rice was about 400g.",
+    "output": "food: fried rice, quantity: 400, unit: g|food: edamame, quantity: null, unit: null"
+  },
+  {
+    "input": "Today was a hectic one from start to finish. Meetings all morning and then a deadline hitting in the afternoon. Barely had time to breathe let alone eat properly. Grabbed a quick bowl of fried rice and some edamame from the place nearby. Ate at my desk while still half-working which isn't ideal. I'm guessing the rice was about 400g. Actually it was a large bowl so probably closer to 500g.",
+    "output": "food: fried rice, quantity: 500, unit: g|food: edamame, quantity: null, unit: null"
+  },
+  {
+    "input": "Today was a hectic one from start to finish. Meetings all morning and then a deadline hitting in the afternoon. Barely had time to breathe let alone eat properly. Grabbed a quick bowl of fried rice and some edamame from the place nearby. Ate at my desk while still half-working which isn't ideal. I'm guessing the rice was about 400g. Actually it was a large bowl so probably closer to 500g. Resolved the deadline by end of day which was a relief.",
+    "output": "food: fried rice, quantity: 500, unit: g|food: edamame, quantity: null, unit: null"
+  },
+  {
+    "input": "Had a lazy morning for once so I made a big breakfast. Put on some music in the kitchen and took my time over it. Made some eggs and toast.",
+    "output": "food: eggs, quantity: null, unit: null|food: toast, quantity: null, unit: null"
+  },
+  {
+    "input": "Had a lazy morning for once so I made a big breakfast. Put on some music in the kitchen and took my time over it. Made some eggs and toast. I think I had 4 eggs and 2 slices of toast.",
+    "output": "food: eggs, quantity: 4, unit: pieces|food: toast, quantity: 2, unit: slices"
+  },
+  {
+    "input": "Had a lazy morning for once so I made a big breakfast. Put on some music in the kitchen and took my time over it. Made some eggs and toast. I think I had 4 eggs and 2 slices of toast. Oh wait, I only had 2 eggs, not 4, I'm thinking of yesterday.",
+    "output": "food: eggs, quantity: 2, unit: pieces|food: toast, quantity: 2, unit: slices"
+  },
+  {
+    "input": "Had a lazy morning for once so I made a big breakfast. Put on some music in the kitchen and took my time over it. Made some eggs and toast. I think I had 4 eggs and 2 slices of toast. Oh wait, I only had 2 eggs, not 4, I'm thinking of yesterday. The toast was definitely 2 slices though.",
+    "output": "food: eggs, quantity: 2, unit: pieces|food: toast, quantity: 2, unit: slices"
+  },
+  {
+    "input": "Had a lazy morning for once so I made a big breakfast. Put on some music in the kitchen and took my time over it. Made some eggs and toast. I think I had 4 eggs and 2 slices of toast. Oh wait, I only had 2 eggs, not 4, I'm thinking of yesterday. The toast was definitely 2 slices though. Took my time eating, really enjoyed having nothing to rush to.",
+    "output": "food: eggs, quantity: 2, unit: pieces|food: toast, quantity: 2, unit: slices"
+  },
+  {
+    "input": "Had a lazy morning for once so I made a big breakfast. Put on some music in the kitchen and took my time over it. Made some eggs and toast. I think I had 4 eggs and 2 slices of toast. Oh wait, I only had 2 eggs, not 4, I'm thinking of yesterday. The toast was definitely 2 slices though. Took my time eating, really enjoyed having nothing to rush to. Got through half a pot of coffee while I was at it.",
+    "output": "food: eggs, quantity: 2, unit: pieces|food: toast, quantity: 2, unit: slices"
+  },
+  {
+    "input": "Had a decent lunch today, went to a sit-down place for once instead of grabbing something quick. There's this burger place nearby that I've walked past a million times. Finally went in and got a burger.",
+    "output": "food: burger, quantity: null, unit: null"
+  },
+  {
+    "input": "Had a decent lunch today, went to a sit-down place for once instead of grabbing something quick. There's this burger place nearby that I've walked past a million times. Finally went in and got a burger. Also got some fries on the side.",
+    "output": "food: burger, quantity: null, unit: null|food: fries, quantity: null, unit: null"
+  },
+  {
+    "input": "Had a decent lunch today, went to a sit-down place for once instead of grabbing something quick. There's this burger place nearby that I've walked past a million times. Finally went in and got a burger. Also got some fries on the side. Was a good meal overall, better than I expected honestly.",
+    "output": "food: burger, quantity: null, unit: null|food: fries, quantity: null, unit: null"
+  },
+  {
+    "input": "Had a decent lunch today, went to a sit-down place for once instead of grabbing something quick. There's this burger place nearby that I've walked past a million times. Finally went in and got a burger. Also got some fries on the side. Was a good meal overall, better than I expected honestly. I thought the burger was around 300g based on the size.",
+    "output": "food: burger, quantity: 300, unit: g|food: fries, quantity: null, unit: null"
+  },
+  {
+    "input": "Had a decent lunch today, went to a sit-down place for once instead of grabbing something quick. There's this burger place nearby that I've walked past a million times. Finally went in and got a burger. Also got some fries on the side. Was a good meal overall, better than I expected honestly. I thought the burger was around 300g based on the size. Looked it up after and it's actually 200g for that size.",
+    "output": "food: burger, quantity: 200, unit: g|food: fries, quantity: null, unit: null"
+  },
+  {
+    "input": "Had a decent lunch today, went to a sit-down place for once instead of grabbing something quick. There's this burger place nearby that I've walked past a million times. Finally went in and got a burger. Also got some fries on the side. Was a good meal overall, better than I expected honestly. I thought the burger was around 300g based on the size. Looked it up after and it's actually 200g for that size. The fries were a regular small portion, about 120g.",
+    "output": "food: burger, quantity: 200, unit: g|food: fries, quantity: 120, unit: g"
+  },
+  {
+    "input": "Dinner tonight was pretty simple, just stuff I had in the fridge. Made some rice and chicken, the easy standby meal.",
+    "output": "food: rice, quantity: null, unit: null|food: chicken, quantity: null, unit: null"
+  },
+  {
+    "input": "Dinner tonight was pretty simple, just stuff I had in the fridge. Made some rice and chicken, the easy standby meal. Threw in some seasoning to make it not completely boring.",
+    "output": "food: rice, quantity: null, unit: null|food: chicken, quantity: null, unit: null"
+  },
+  {
+    "input": "Dinner tonight was pretty simple, just stuff I had in the fridge. Made some rice and chicken, the easy standby meal. Threw in some seasoning to make it not completely boring. I thought I ate maybe 3 cups of rice, it felt like a lot.",
+    "output": "food: rice, quantity: 3, unit: cups|food: chicken, quantity: null, unit: null"
+  },
+  {
+    "input": "Dinner tonight was pretty simple, just stuff I had in the fridge. Made some rice and chicken, the easy standby meal. Threw in some seasoning to make it not completely boring. I thought I ate maybe 3 cups of rice, it felt like a lot. Looking at the portion now though, it was probably more like 1 cup.",
+    "output": "food: rice, quantity: 1, unit: cup|food: chicken, quantity: null, unit: null"
+  },
+  {
+    "input": "Dinner tonight was pretty simple, just stuff I had in the fridge. Made some rice and chicken, the easy standby meal. Threw in some seasoning to make it not completely boring. I thought I ate maybe 3 cups of rice, it felt like a lot. Looking at the portion now though, it was probably more like 1 cup. The chicken was a standard breast.",
+    "output": "food: rice, quantity: 1, unit: cup|food: chicken, quantity: null, unit: null"
+  },
+  {
+    "input": "Dinner tonight was pretty simple, just stuff I had in the fridge. Made some rice and chicken, the easy standby meal. Threw in some seasoning to make it not completely boring. I thought I ate maybe 3 cups of rice, it felt like a lot. Looking at the portion now though, it was probably more like 1 cup. The chicken was a standard breast. Weighed it before cooking, came to 150g.",
+    "output": "food: rice, quantity: 1, unit: cup|food: chicken, quantity: 150, unit: g"
+  },
+  {
+    "input": "Beef steak for lunch today, treating myself since I worked through the weekend.",
+    "output": "food: beef steak, quantity: null, unit: null"
+  },
+  {
+    "input": "Beef steak for lunch today, treating myself since I worked through the weekend. Cooked it at home which is always more satisfying than ordering out.",
+    "output": "food: beef steak, quantity: null, unit: null"
+  },
+  {
+    "input": "Beef steak for lunch today, treating myself since I worked through the weekend. Cooked it at home which is always more satisfying than ordering out. Had maybe 300g - actually no, it was more like 400g.",
+    "output": "food: beef steak, quantity: 400, unit: g"
+  },
+  {
+    "input": "Beef steak for lunch today, treating myself since I worked through the weekend. Cooked it at home which is always more satisfying than ordering out. Had maybe 300g - actually no, it was more like 400g. Was a nice big piece.",
+    "output": "food: beef steak, quantity: 400, unit: g"
+  },
+  {
+    "input": "Beef steak for lunch today, treating myself since I worked through the weekend. Cooked it at home which is always more satisfying than ordering out. Had maybe 300g - actually no, it was more like 400g. Was a nice big piece. Felt pretty stuffed afterwards and had a slow afternoon.",
+    "output": "food: beef steak, quantity: 400, unit: g"
+  },
+  {
+    "input": "Beef steak for lunch today, treating myself since I worked through the weekend. Cooked it at home which is always more satisfying than ordering out. Had maybe 300g - actually no, it was more like 400g. Was a nice big piece. Felt pretty stuffed afterwards and had a slow afternoon. Not complaining though.",
+    "output": "food: beef steak, quantity: 400, unit: g"
+  },
+  {
+    "input": "Wrapped up a decent gym session tonight, hit everything on the program. Felt strong which is always a good sign heading into the week. Made a protein shake when I got home, 2 scoops.",
+    "output": "food: protein shake, quantity: 2, unit: scoops"
+  },
+  {
+    "input": "Wrapped up a decent gym session tonight, hit everything on the program. Felt strong which is always a good sign heading into the week. Made a protein shake when I got home, 2 scoops. Wait, just 1 scoop, I ran out without noticing.",
+    "output": "food: protein shake, quantity: 1, unit: scoop"
+  },
+  {
+    "input": "Wrapped up a decent gym session tonight, hit everything on the program. Felt strong which is always a good sign heading into the week. Made a protein shake when I got home, 2 scoops. Wait, just 1 scoop, I ran out without noticing. Was still pretty thick which was fine.",
+    "output": "food: protein shake, quantity: 1, unit: scoop"
+  },
+  {
+    "input": "Wrapped up a decent gym session tonight, hit everything on the program. Felt strong which is always a good sign heading into the week. Made a protein shake when I got home, 2 scoops. Wait, just 1 scoop, I ran out without noticing. Was still pretty thick which was fine. Had it while scrolling my phone and then hit the shower.",
+    "output": "food: protein shake, quantity: 1, unit: scoop"
+  },
+  {
+    "input": "Wrapped up a decent gym session tonight, hit everything on the program. Felt strong which is always a good sign heading into the week. Made a protein shake when I got home, 2 scoops. Wait, just 1 scoop, I ran out without noticing. Was still pretty thick which was fine. Had it while scrolling my phone and then hit the shower. Early night after that.",
+    "output": "food: protein shake, quantity: 1, unit: scoop"
+  },
+  {
+    "input": "Afternoon slump hit hard today so I went looking for a snack. Found some chips in the cupboard.",
+    "output": "food: chips, quantity: null, unit: null"
+  },
+  {
+    "input": "Afternoon slump hit hard today so I went looking for a snack. Found some chips in the cupboard. Had like 3 servings I think.",
+    "output": "food: chips, quantity: 3, unit: servings"
+  },
+  {
+    "input": "Afternoon slump hit hard today so I went looking for a snack. Found some chips in the cupboard. Had like 3 servings I think. Nope, probably just 1 serving, the bag wasn't even that big.",
+    "output": "food: chips, quantity: 1, unit: serving"
+  },
+  {
+    "input": "Afternoon slump hit hard today so I went looking for a snack. Found some chips in the cupboard. Had like 3 servings I think. Nope, probably just 1 serving, the bag wasn't even that big. I always misjudge packet sizes.",
+    "output": "food: chips, quantity: 1, unit: serving"
+  },
+  {
+    "input": "Afternoon slump hit hard today so I went looking for a snack. Found some chips in the cupboard. Had like 3 servings I think. Nope, probably just 1 serving, the bag wasn't even that big. I always misjudge packet sizes. Made a coffee and got back to work after.",
+    "output": "food: chips, quantity: 1, unit: serving"
+  },
+  {
+    "input": "Made pasta for dinner, my go-to lazy meal.",
+    "output": "food: pasta, quantity: null, unit: null"
+  },
+  {
+    "input": "Made pasta for dinner, my go-to lazy meal. Was on the phone with a friend while cooking so wasn't paying full attention.",
+    "output": "food: pasta, quantity: null, unit: null"
+  },
+  {
+    "input": "Made pasta for dinner, my go-to lazy meal. Was on the phone with a friend while cooking so wasn't paying full attention. Had 2 servings of - wait no 3 servings of pasta.",
+    "output": "food: pasta, quantity: 3, unit: servings"
+  },
+  {
+    "input": "Made pasta for dinner, my go-to lazy meal. Was on the phone with a friend while cooking so wasn't paying full attention. Had 2 servings of - wait no 3 servings of pasta. And a glass of water on the side.",
+    "output": "food: pasta, quantity: 3, unit: servings"
+  },
+  {
+    "input": "Made pasta for dinner, my go-to lazy meal. Was on the phone with a friend while cooking so wasn't paying full attention. Had 2 servings of - wait no 3 servings of pasta. And a glass of water on the side. Put on a film after and fell asleep on the couch.",
+    "output": "food: pasta, quantity: 3, unit: servings"
+  },
+  {
+    "input": "Made pasta for dinner, my go-to lazy meal. Was on the phone with a friend while cooking so wasn't paying full attention. Had 2 servings of - wait no 3 servings of pasta. And a glass of water on the side. Put on a film after and fell asleep on the couch. Classic.",
+    "output": "food: pasta, quantity: 3, unit: servings"
+  },
+  {
+    "input": "Hit the gym early this morning before work, good session. Had a banana on the way out, like 2 of them actually.",
+    "output": "food: banana, quantity: 2, unit: pieces"
+  },
+  {
+    "input": "Hit the gym early this morning before work, good session. Had a banana on the way out, like 2 of them actually. Wait, just 1 banana, the other one was still green so I left it.",
+    "output": "food: banana, quantity: 1, unit: piece"
+  },
+  {
+    "input": "Hit the gym early this morning before work, good session. Had a banana on the way out, like 2 of them actually. Wait, just 1 banana, the other one was still green so I left it. Work was manic, back-to-back from 9 until nearly 5.",
+    "output": "food: banana, quantity: 1, unit: piece"
+  },
+  {
+    "input": "Hit the gym early this morning before work, good session. Had a banana on the way out, like 2 of them actually. Wait, just 1 banana, the other one was still green so I left it. Work was manic, back-to-back from 9 until nearly 5. Made some pasta for dinner when I got in.",
+    "output": "food: banana, quantity: 1, unit: piece|food: pasta, quantity: null, unit: null"
+  },
+  {
+    "input": "Hit the gym early this morning before work, good session. Had a banana on the way out, like 2 of them actually. Wait, just 1 banana, the other one was still green so I left it. Work was manic, back-to-back from 9 until nearly 5. Made some pasta for dinner when I got in. Added a bit of pesto from the jar.",
+    "output": "food: banana, quantity: 1, unit: piece|food: pasta, quantity: null, unit: null"
+  },
+  {
+    "input": "Hit the gym early this morning before work, good session. Had a banana on the way out, like 2 of them actually. Wait, just 1 banana, the other one was still green so I left it. Work was manic, back-to-back from 9 until nearly 5. Made some pasta for dinner when I got in. Added a bit of pesto from the jar. Was a filling end to a long day.",
+    "output": "food: banana, quantity: 1, unit: piece|food: pasta, quantity: null, unit: null"
+  },
+  {
+    "input": "Hit the gym early this morning before work, good session. Had a banana on the way out, like 2 of them actually. Wait, just 1 banana, the other one was still green so I left it. Work was manic, back-to-back from 9 until nearly 5. Made some pasta for dinner when I got in. Added a bit of pesto from the jar. Was a filling end to a long day. Big portion, around 400g.",
+    "output": "food: banana, quantity: 1, unit: piece|food: pasta, quantity: 400, unit: g"
+  },
+  {
+    "input": "Really good gym session today, probably one of the best of the month. Hit a new squat PR, got 120kg for 5 reps which I'm really happy with. Deadlifted 140kg too which I was honestly surprised by. Came home feeling great and started making food. Had a protein shake right away.",
+    "output": "food: protein shake, quantity: null, unit: null"
+  },
+  {
+    "input": "Really good gym session today, probably one of the best of the month. Hit a new squat PR, got 120kg for 5 reps which I'm really happy with. Deadlifted 140kg too which I was honestly surprised by. Came home feeling great and started making food. Had a protein shake right away. Then made some chicken and rice for dinner.",
+    "output": "food: protein shake, quantity: null, unit: null|food: chicken, quantity: null, unit: null|food: rice, quantity: null, unit: null"
+  },
+  {
+    "input": "Really good gym session today, probably one of the best of the month. Hit a new squat PR, got 120kg for 5 reps which I'm really happy with. Deadlifted 140kg too which I was honestly surprised by. Came home feeling great and started making food. Had a protein shake right away. Then made some chicken and rice for dinner. Chicken was about 300g and rice was 150g.",
+    "output": "food: protein shake, quantity: null, unit: null|food: chicken, quantity: 300, unit: g|food: rice, quantity: 150, unit: g"
+  },
+  {
+    "input": "Got a delivery today, some kitchen stuff I ordered last week. The box was really heavy, felt like 5kg at least. Spent a bit of time sorting through it and setting things up. The new pan looks great, can't wait to actually use it. Made pasta for dinner.",
+    "output": "food: pasta, quantity: null, unit: null"
+  },
+  {
+    "input": "Got a delivery today, some kitchen stuff I ordered last week. The box was really heavy, felt like 5kg at least. Spent a bit of time sorting through it and setting things up. The new pan looks great, can't wait to actually use it. Made pasta for dinner. Used the new pan actually, seemed fitting.",
+    "output": "food: pasta, quantity: null, unit: null"
+  },
+  {
+    "input": "Got a delivery today, some kitchen stuff I ordered last week. The box was really heavy, felt like 5kg at least. Spent a bit of time sorting through it and setting things up. The new pan looks great, can't wait to actually use it. Made pasta for dinner. Used the new pan actually, seemed fitting. Was a pretty big portion, probably 400g.",
+    "output": "food: pasta, quantity: 400, unit: g"
+  },
+  {
+    "input": "Got a delivery today, some kitchen stuff I ordered last week. The box was really heavy, felt like 5kg at least. Spent a bit of time sorting through it and setting things up. The new pan looks great, can't wait to actually use it. Made pasta for dinner. Used the new pan actually, seemed fitting. Was a pretty big portion, probably 400g. Cleaned up and called it a night.",
+    "output": "food: pasta, quantity: 400, unit: g"
+  },
+  {
+    "input": "Had a really lovely afternoon visiting my cousin and her new baby. The baby is 3.5kg now, growing so fast. We all sat around the table and had lunch together. She made soup and there was some bread on the table too.",
+    "output": "food: soup, quantity: null, unit: null|food: bread, quantity: null, unit: null"
+  },
+  {
+    "input": "Had a really lovely afternoon visiting my cousin and her new baby. The baby is 3.5kg now, growing so fast. We all sat around the table and had lunch together. She made soup and there was some bread on the table too. The baby fell asleep while we were eating which was adorable.",
+    "output": "food: soup, quantity: null, unit: null|food: bread, quantity: null, unit: null"
+  },
+  {
+    "input": "Had a really lovely afternoon visiting my cousin and her new baby. The baby is 3.5kg now, growing so fast. We all sat around the table and had lunch together. She made soup and there was some bread on the table too. The baby fell asleep while we were eating which was adorable. Really nice to have a proper catch-up, felt long overdue.",
+    "output": "food: soup, quantity: null, unit: null|food: bread, quantity: null, unit: null"
+  },
+  {
+    "input": "Had a really lovely afternoon visiting my cousin and her new baby. The baby is 3.5kg now, growing so fast. We all sat around the table and had lunch together. She made soup and there was some bread on the table too. The baby fell asleep while we were eating which was adorable. Really nice to have a proper catch-up, felt long overdue. I had about 2 bowls of the soup and 3 slices of bread.",
+    "output": "food: soup, quantity: 2, unit: bowls|food: bread, quantity: 3, unit: slices"
+  },
+  {
+    "input": "Went for a run first thing this morning, managed to do 10km. Burned around 600 calories according to my running watch. Came home absolutely starving and made a proper cooked breakfast. Eggs, bacon, and toast.",
+    "output": "food: eggs, quantity: null, unit: null|food: bacon, quantity: null, unit: null|food: toast, quantity: null, unit: null"
+  },
+  {
+    "input": "Went for a run first thing this morning, managed to do 10km. Burned around 600 calories according to my running watch. Came home absolutely starving and made a proper cooked breakfast. Eggs, bacon, and toast. Took my time over it, deserved a slow morning.",
+    "output": "food: eggs, quantity: null, unit: null|food: bacon, quantity: null, unit: null|food: toast, quantity: null, unit: null"
+  },
+  {
+    "input": "Went for a run first thing this morning, managed to do 10km. Burned around 600 calories according to my running watch. Came home absolutely starving and made a proper cooked breakfast. Eggs, bacon, and toast. Took my time over it, deserved a slow morning. Had 3 eggs, 4 strips of bacon, and 2 slices of toast.",
+    "output": "food: eggs, quantity: 3, unit: pieces|food: bacon, quantity: 4, unit: strips|food: toast, quantity: 2, unit: slices"
+  },
+  {
+    "input": "Morning routine today: vitamins first, then breakfast. Took 500mg vitamin C and 1000 IU vitamin D with a glass of water. Then had some cereal and milk.",
+    "output": "food: cereal, quantity: null, unit: null|food: milk, quantity: null, unit: null"
+  },
+  {
+    "input": "Morning routine today: vitamins first, then breakfast. Took 500mg vitamin C and 1000 IU vitamin D with a glass of water. Then had some cereal and milk. Read the news while I was eating.",
+    "output": "food: cereal, quantity: null, unit: null|food: milk, quantity: null, unit: null"
+  },
+  {
+    "input": "Morning routine today: vitamins first, then breakfast. Took 500mg vitamin C and 1000 IU vitamin D with a glass of water. Then had some cereal and milk. Read the news while I was eating. Cereal was maybe 60g and the milk was about 200ml.",
+    "output": "food: cereal, quantity: 60, unit: g|food: milk, quantity: 200, unit: ml"
+  },
+  {
+    "input": "Morning routine today: vitamins first, then breakfast. Took 500mg vitamin C and 1000 IU vitamin D with a glass of water. Then had some cereal and milk. Read the news while I was eating. Cereal was maybe 60g and the milk was about 200ml. Pretty standard morning, headed to work after.",
+    "output": "food: cereal, quantity: 60, unit: g|food: milk, quantity: 200, unit: ml"
+  },
+  {
+    "input": "Moved into my new place today, finally after weeks of planning. Had a bunch of friends help out which made it way more manageable. The couch took five of us and it's only 80kg, it was just an awkward shape. Got everything in by late afternoon. After we got everything in we ordered some food. Got pizza and wings delivered.",
+    "output": "food: pizza, quantity: null, unit: null|food: wings, quantity: null, unit: null"
+  },
+  {
+    "input": "Moved into my new place today, finally after weeks of planning. Had a bunch of friends help out which made it way more manageable. The couch took five of us and it's only 80kg, it was just an awkward shape. Got everything in by late afternoon. After we got everything in we ordered some food. Got pizza and wings delivered. Everyone was starving so it disappeared pretty quickly.",
+    "output": "food: pizza, quantity: null, unit: null|food: wings, quantity: null, unit: null"
+  },
+  {
+    "input": "Moved into my new place today, finally after weeks of planning. Had a bunch of friends help out which made it way more manageable. The couch took five of us and it's only 80kg, it was just an awkward shape. Got everything in by late afternoon. After we got everything in we ordered some food. Got pizza and wings delivered. Everyone was starving so it disappeared pretty quickly. I had 4 slices of pizza and about 6 wings.",
+    "output": "food: pizza, quantity: 4, unit: slices|food: wings, quantity: 6, unit: pieces"
+  },
+  {
+    "input": "Moved into my new place today, finally after weeks of planning. Had a bunch of friends help out which made it way more manageable. The couch took five of us and it's only 80kg, it was just an awkward shape. Got everything in by late afternoon. After we got everything in we ordered some food. Got pizza and wings delivered. Everyone was starving so it disappeared pretty quickly. I had 4 slices of pizza and about 6 wings. Great end to a big day.",
+    "output": "food: pizza, quantity: 4, unit: slices|food: wings, quantity: 6, unit: pieces"
+  },
+  {
+    "input": "Had a routine check-up with my GP today. Blood pressure and all the usual checks, everything came back fine. My weight was 75kg which she said is right where I should be. She recommended I eat more protein generally. Took that on board and made chicken and lentils for dinner.",
+    "output": "food: chicken, quantity: null, unit: null|food: lentils, quantity: null, unit: null"
+  },
+  {
+    "input": "Had a routine check-up with my GP today. Blood pressure and all the usual checks, everything came back fine. My weight was 75kg which she said is right where I should be. She recommended I eat more protein generally. Took that on board and made chicken and lentils for dinner. Tried to be mindful of portions.",
+    "output": "food: chicken, quantity: null, unit: null|food: lentils, quantity: null, unit: null"
+  },
+  {
+    "input": "Had a routine check-up with my GP today. Blood pressure and all the usual checks, everything came back fine. My weight was 75kg which she said is right where I should be. She recommended I eat more protein generally. Took that on board and made chicken and lentils for dinner. Tried to be mindful of portions. The chicken was a good sized piece, about 250g.",
+    "output": "food: chicken, quantity: 250, unit: g|food: lentils, quantity: null, unit: null"
+  },
+  {
+    "input": "Had a routine check-up with my GP today. Blood pressure and all the usual checks, everything came back fine. My weight was 75kg which she said is right where I should be. She recommended I eat more protein generally. Took that on board and made chicken and lentils for dinner. Tried to be mindful of portions. The chicken was a good sized piece, about 250g. Lentils I had about half a cup cooked.",
+    "output": "food: chicken, quantity: 250, unit: g|food: lentils, quantity: 0.5, unit: cups"
+  },
+  {
+    "input": "Morning routine started with a 45 minute spin on the stationary bike. Covered about 20km according to the readout, which is decent for that time. Worked up a proper sweat and felt good after. Had my post-workout meal after a shower. Scrambled eggs and some whole wheat toast.",
+    "output": "food: scrambled eggs, quantity: null, unit: null|food: whole wheat toast, quantity: null, unit: null"
+  },
+  {
+    "input": "Morning routine started with a 45 minute spin on the stationary bike. Covered about 20km according to the readout, which is decent for that time. Worked up a proper sweat and felt good after. Had my post-workout meal after a shower. Scrambled eggs and some whole wheat toast. 3 eggs and 2 slices of toast.",
+    "output": "food: scrambled eggs, quantity: 3, unit: pieces|food: whole wheat toast, quantity: 2, unit: slices"
+  },
+  {
+    "input": "Morning routine started with a 45 minute spin on the stationary bike. Covered about 20km according to the readout, which is decent for that time. Worked up a proper sweat and felt good after. Had my post-workout meal after a shower. Scrambled eggs and some whole wheat toast. 3 eggs and 2 slices of toast. Did some reading and then got ready for work.",
+    "output": "food: scrambled eggs, quantity: 3, unit: pieces|food: whole wheat toast, quantity: 2, unit: slices"
+  },
+  {
+    "input": "Did a big cook-up of chicken today to save time during the week. Put about 1kg of chicken in the oven with some herbs and seasoning.",
+    "output": "food: chicken, quantity: 1000, unit: g"
+  },
+  {
+    "input": "Did a big cook-up of chicken today to save time during the week. Put about 1kg of chicken in the oven with some herbs and seasoning. While it was cooking I sorted some bits around the flat.",
+    "output": "food: chicken, quantity: 1000, unit: g"
+  },
+  {
+    "input": "Did a big cook-up of chicken today to save time during the week. Put about 1kg of chicken in the oven with some herbs and seasoning. While it was cooking I sorted some bits around the flat. The place smelled really good actually.",
+    "output": "food: chicken, quantity: 1000, unit: g"
+  },
+  {
+    "input": "Did a big cook-up of chicken today to save time during the week. Put about 1kg of chicken in the oven with some herbs and seasoning. While it was cooking I sorted some bits around the flat. The place smelled really good actually. Divided it into containers when it came out.",
+    "output": "food: chicken, quantity: 1000, unit: g"
+  },
+  {
+    "input": "Did a big cook-up of chicken today to save time during the week. Put about 1kg of chicken in the oven with some herbs and seasoning. While it was cooking I sorted some bits around the flat. The place smelled really good actually. Divided it into containers when it came out. I had some for dinner.",
+    "output": "food: chicken, quantity: 1000, unit: g"
+  },
+  {
+    "input": "Did a big cook-up of chicken today to save time during the week. Put about 1kg of chicken in the oven with some herbs and seasoning. While it was cooking I sorted some bits around the flat. The place smelled really good actually. Divided it into containers when it came out. I had some for dinner. Just a small portion, about 200g.",
+    "output": "food: chicken, quantity: 200, unit: g"
+  },
+  {
+    "input": "Did a big cook-up of chicken today to save time during the week. Put about 1kg of chicken in the oven with some herbs and seasoning. While it was cooking I sorted some bits around the flat. The place smelled really good actually. Divided it into containers when it came out. I had some for dinner. Just a small portion, about 200g. Stored the rest in the fridge for the rest of the week.",
+    "output": "food: chicken, quantity: 200, unit: g"
+  },
+  {
+    "input": "Part of my morning routine now is 5g of creatine with water before eating. Had Greek yogurt and berries for breakfast.",
+    "output": "food: Greek yogurt, quantity: null, unit: null|food: berries, quantity: null, unit: null"
+  },
+  {
+    "input": "Part of my morning routine now is 5g of creatine with water before eating. Had Greek yogurt and berries for breakfast. The yogurt container was one of the big 500g tubs.",
+    "output": "food: Greek yogurt, quantity: 500, unit: g|food: berries, quantity: null, unit: null"
+  },
+  {
+    "input": "Part of my morning routine now is 5g of creatine with water before eating. Had Greek yogurt and berries for breakfast. The yogurt container was one of the big 500g tubs. I only had half though, so more like 250g.",
+    "output": "food: Greek yogurt, quantity: 250, unit: g|food: berries, quantity: null, unit: null"
+  },
+  {
+    "input": "Part of my morning routine now is 5g of creatine with water before eating. Had Greek yogurt and berries for breakfast. The yogurt container was one of the big 500g tubs. I only had half though, so more like 250g. Berries were just a handful on top, maybe 80g.",
+    "output": "food: Greek yogurt, quantity: 250, unit: g|food: berries, quantity: 80, unit: g"
+  },
+  {
+    "input": "Part of my morning routine now is 5g of creatine with water before eating. Had Greek yogurt and berries for breakfast. The yogurt container was one of the big 500g tubs. I only had half though, so more like 250g. Berries were just a handful on top, maybe 80g. Quick morning after that, out the door by 8.",
+    "output": "food: Greek yogurt, quantity: 250, unit: g|food: berries, quantity: 80, unit: g"
+  },
+  {
+    "input": "Busy day: walked 8000 steps, drank 2 litres of water, and lifted 60kg in the gym. Kept food pretty simple to make up for a big weekend. Just a tuna sandwich and an orange.",
+    "output": "food: tuna sandwich, quantity: null, unit: null|food: orange, quantity: null, unit: null"
+  },
+  {
+    "input": "Busy day: walked 8000 steps, drank 2 litres of water, and lifted 60kg in the gym. Kept food pretty simple to make up for a big weekend. Just a tuna sandwich and an orange. Sandwich was about 250g and the orange was one medium one.",
+    "output": "food: tuna sandwich, quantity: 250, unit: g|food: orange, quantity: 1, unit: piece"
+  },
+  {
+    "input": "Busy day: walked 8000 steps, drank 2 litres of water, and lifted 60kg in the gym. Kept food pretty simple to make up for a big weekend. Just a tuna sandwich and an orange. Sandwich was about 250g and the orange was one medium one. Early night, need to be up for a call at 7 tomorrow.",
+    "output": "food: tuna sandwich, quantity: 250, unit: g|food: orange, quantity: 1, unit: piece"
+  },
+  {
+    "input": "Did the weekly grocery shop this morning, always takes longer than I think it will. Picked up a pack of chicken breast, about 1kg.",
+    "output": "food: chicken breast, quantity: 1000, unit: g"
+  },
+  {
+    "input": "Did the weekly grocery shop this morning, always takes longer than I think it will. Picked up a pack of chicken breast, about 1kg. Got vegetables, bread, and a few other bits.",
+    "output": "food: chicken breast, quantity: 1000, unit: g"
+  },
+  {
+    "input": "Did the weekly grocery shop this morning, always takes longer than I think it will. Picked up a pack of chicken breast, about 1kg. Got vegetables, bread, and a few other bits. Had some people round in the afternoon which was a nice surprise.",
+    "output": "food: chicken breast, quantity: 1000, unit: g"
+  },
+  {
+    "input": "Did the weekly grocery shop this morning, always takes longer than I think it will. Picked up a pack of chicken breast, about 1kg. Got vegetables, bread, and a few other bits. Had some people round in the afternoon which was a nice surprise. Cooked the chicken for dinner and just had some for myself.",
+    "output": "food: chicken breast, quantity: 1000, unit: g"
+  },
+  {
+    "input": "Did the weekly grocery shop this morning, always takes longer than I think it will. Picked up a pack of chicken breast, about 1kg. Got vegetables, bread, and a few other bits. Had some people round in the afternoon which was a nice surprise. Cooked the chicken for dinner and just had some for myself. My portion was quite small, only about 150g.",
+    "output": "food: chicken breast, quantity: 150, unit: g"
+  },
+  {
+    "input": "Did the weekly grocery shop this morning, always takes longer than I think it will. Picked up a pack of chicken breast, about 1kg. Got vegetables, bread, and a few other bits. Had some people round in the afternoon which was a nice surprise. Cooked the chicken for dinner and just had some for myself. My portion was quite small, only about 150g. Enough left over for lunches this week.",
+    "output": "food: chicken breast, quantity: 150, unit: g"
+  },
+  {
+    "input": "Tried making Thai curry from scratch tonight, a bit ambitious for a weeknight.",
+    "output": "food: Thai curry, quantity: null, unit: null"
+  },
+  {
+    "input": "Tried making Thai curry from scratch tonight, a bit ambitious for a weeknight. Found the recipe online and it looked manageable.",
+    "output": "food: Thai curry, quantity: null, unit: null"
+  },
+  {
+    "input": "Tried making Thai curry from scratch tonight, a bit ambitious for a weeknight. Found the recipe online and it looked manageable. Needed coconut milk, chicken, and vegetables.",
+    "output": "food: Thai curry, quantity: null, unit: null"
+  },
+  {
+    "input": "Tried making Thai curry from scratch tonight, a bit ambitious for a weeknight. Found the recipe online and it looked manageable. Needed coconut milk, chicken, and vegetables. The house smelled amazing while it was cooking.",
+    "output": "food: Thai curry, quantity: null, unit: null"
+  },
+  {
+    "input": "Tried making Thai curry from scratch tonight, a bit ambitious for a weeknight. Found the recipe online and it looked manageable. Needed coconut milk, chicken, and vegetables. The house smelled amazing while it was cooking. Took about 45 minutes total which wasn't too bad.",
+    "output": "food: Thai curry, quantity: null, unit: null"
+  },
+  {
+    "input": "Tried making Thai curry from scratch tonight, a bit ambitious for a weeknight. Found the recipe online and it looked manageable. Needed coconut milk, chicken, and vegetables. The house smelled amazing while it was cooking. Took about 45 minutes total which wasn't too bad. Really happy with how it came out, would make it again.",
+    "output": "food: Thai curry, quantity: null, unit: null"
+  },
+  {
+    "input": "Tried making Thai curry from scratch tonight, a bit ambitious for a weeknight. Found the recipe online and it looked manageable. Needed coconut milk, chicken, and vegetables. The house smelled amazing while it was cooking. Took about 45 minutes total which wasn't too bad. Really happy with how it came out, would make it again. I had about 2 cups of the curry for dinner.",
+    "output": "food: Thai curry, quantity: 2, unit: cups"
+  },
+  {
+    "input": "Working from home today, slow-paced kind of morning. Had peanut butter on toast which is my default when I don't think too hard about breakfast.",
+    "output": "food: peanut butter, quantity: null, unit: null|food: toast, quantity: null, unit: null"
+  },
+  {
+    "input": "Working from home today, slow-paced kind of morning. Had peanut butter on toast which is my default when I don't think too hard about breakfast. The jar says a serving is 32g.",
+    "output": "food: peanut butter, quantity: 32, unit: g|food: toast, quantity: null, unit: null"
+  },
+  {
+    "input": "Working from home today, slow-paced kind of morning. Had peanut butter on toast which is my default when I don't think too hard about breakfast. The jar says a serving is 32g. I definitely had more than that though.",
+    "output": "food: peanut butter, quantity: 32, unit: g|food: toast, quantity: null, unit: null"
+  },
+  {
+    "input": "Working from home today, slow-paced kind of morning. Had peanut butter on toast which is my default when I don't think too hard about breakfast. The jar says a serving is 32g. I definitely had more than that though. More like 3 tablespoons, probably 60g total.",
+    "output": "food: peanut butter, quantity: 60, unit: g|food: toast, quantity: null, unit: null"
+  },
+  {
+    "input": "Working from home today, slow-paced kind of morning. Had peanut butter on toast which is my default when I don't think too hard about breakfast. The jar says a serving is 32g. I definitely had more than that though. More like 3 tablespoons, probably 60g total. Toast was 2 slices.",
+    "output": "food: peanut butter, quantity: 60, unit: g|food: toast, quantity: 2, unit: slices"
+  },
+  {
+    "input": "Working from home today, slow-paced kind of morning. Had peanut butter on toast which is my default when I don't think too hard about breakfast. The jar says a serving is 32g. I definitely had more than that though. More like 3 tablespoons, probably 60g total. Toast was 2 slices. Had coffee with it and caught up on some emails before starting work.",
+    "output": "food: peanut butter, quantity: 60, unit: g|food: toast, quantity: 2, unit: slices"
+  },
+  {
+    "input": "Planned to eat super clean today, stuck to it for breakfast. Made some eggs, kept it simple.",
+    "output": "food: eggs, quantity: null, unit: null"
+  },
+  {
+    "input": "Planned to eat super clean today, stuck to it for breakfast. Made some eggs, kept it simple. Lunch I was going to have a salad.",
+    "output": "food: eggs, quantity: null, unit: null"
+  },
+  {
+    "input": "Planned to eat super clean today, stuck to it for breakfast. Made some eggs, kept it simple. Lunch I was going to have a salad. But ended up having a burger instead, couldn't resist.",
+    "output": "food: eggs, quantity: null, unit: null|food: burger, quantity: null, unit: null"
+  },
+  {
+    "input": "Planned to eat super clean today, stuck to it for breakfast. Made some eggs, kept it simple. Lunch I was going to have a salad. But ended up having a burger instead, couldn't resist. Small-ish burger, probably 250g.",
+    "output": "food: eggs, quantity: null, unit: null|food: burger, quantity: 250, unit: g"
+  },
+  {
+    "input": "Planned to eat super clean today, stuck to it for breakfast. Made some eggs, kept it simple. Lunch I was going to have a salad. But ended up having a burger instead, couldn't resist. Small-ish burger, probably 250g. And 2 eggs at breakfast.",
+    "output": "food: eggs, quantity: 2, unit: pieces|food: burger, quantity: 250, unit: g"
+  },
+  {
+    "input": "Planned to eat super clean today, stuck to it for breakfast. Made some eggs, kept it simple. Lunch I was going to have a salad. But ended up having a burger instead, couldn't resist. Small-ish burger, probably 250g. And 2 eggs at breakfast. Tomorrow I'll actually do the salad.",
+    "output": "food: eggs, quantity: 2, unit: pieces|food: burger, quantity: 250, unit: g"
+  },
+  {
+    "input": "Just jotting this down before I forget. Had a wrap at lunchtime.",
+    "output": "food: wrap, quantity: null, unit: null"
+  },
+  {
+    "input": "Just jotting this down before I forget. Had a wrap at lunchtime. My first guess was around 350g.",
+    "output": "food: wrap, quantity: 350, unit: g"
+  },
+  {
+    "input": "Just jotting this down before I forget. Had a wrap at lunchtime. My first guess was around 350g. Weighed it on the kitchen scale later, it came to 290g.",
+    "output": "food: wrap, quantity: 290, unit: g"
+  },
+  {
+    "input": "Just jotting this down before I forget. Had a wrap at lunchtime. My first guess was around 350g. Weighed it on the kitchen scale later, it came to 290g. Also had a Diet Coke with it.",
+    "output": "food: wrap, quantity: 290, unit: g|food: Diet Coke, quantity: null, unit: null"
+  },
+  {
+    "input": "Just jotting this down before I forget. Had a wrap at lunchtime. My first guess was around 350g. Weighed it on the kitchen scale later, it came to 290g. Also had a Diet Coke with it. Dinner still to figure out.",
+    "output": "food: wrap, quantity: 290, unit: g|food: Diet Coke, quantity: null, unit: null"
+  },
+  {
+    "input": "Training log for today. Bench 80kg, 5x5. Good session overall, felt strong. Post-workout meal: protein shake, banana, and rice cakes.",
+    "output": "food: protein shake, quantity: null, unit: null|food: banana, quantity: null, unit: null|food: rice cakes, quantity: null, unit: null"
+  },
+  {
+    "input": "Training log for today. Bench 80kg, 5x5. Good session overall, felt strong. Post-workout meal: protein shake, banana, and rice cakes. Shake was 1 scoop, banana was 1, rice cakes were 3 pieces.",
+    "output": "food: protein shake, quantity: 1, unit: scoop|food: banana, quantity: 1, unit: piece|food: rice cakes, quantity: 3, unit: pieces"
+  },
+  {
+    "input": "Training log for today. Bench 80kg, 5x5. Good session overall, felt strong. Post-workout meal: protein shake, banana, and rice cakes. Shake was 1 scoop, banana was 1, rice cakes were 3 pieces. Then dinner later, keeping it light.",
+    "output": "food: protein shake, quantity: 1, unit: scoop|food: banana, quantity: 1, unit: piece|food: rice cakes, quantity: 3, unit: pieces"
+  },
+  {
+    "input": "Not a great day for tracking honestly, kind of lost track of things. Breakfast I had some cereal I think.",
+    "output": "food: cereal, quantity: null, unit: null"
+  },
+  {
+    "input": "Not a great day for tracking honestly, kind of lost track of things. Breakfast I had some cereal I think. Then pasta for dinner.",
+    "output": "food: cereal, quantity: null, unit: null|food: pasta, quantity: null, unit: null"
+  },
+  {
+    "input": "Not a great day for tracking honestly, kind of lost track of things. Breakfast I had some cereal I think. Then pasta for dinner. Didn't really measure anything today.",
+    "output": "food: cereal, quantity: null, unit: null|food: pasta, quantity: null, unit: null"
+  },
+  {
+    "input": "Not a great day for tracking honestly, kind of lost track of things. Breakfast I had some cereal I think. Then pasta for dinner. Didn't really measure anything today. Cereal was probably 2 bowls, maybe less.",
+    "output": "food: cereal, quantity: 2, unit: bowls|food: pasta, quantity: null, unit: null"
+  },
+  {
+    "input": "Not a great day for tracking honestly, kind of lost track of things. Breakfast I had some cereal I think. Then pasta for dinner. Didn't really measure anything today. Cereal was probably 2 bowls, maybe less. Pasta was a big portion, I know that much.",
+    "output": "food: cereal, quantity: 2, unit: bowls|food: pasta, quantity: null, unit: null"
+  },
+  {
+    "input": "Not a great day for tracking honestly, kind of lost track of things. Breakfast I had some cereal I think. Then pasta for dinner. Didn't really measure anything today. Cereal was probably 2 bowls, maybe less. Pasta was a big portion, I know that much. Maybe 450g of it.",
+    "output": "food: cereal, quantity: 2, unit: bowls|food: pasta, quantity: 450, unit: g"
+  },
+  {
+    "input": "Had lunch with my friend today at that new place by the market. She had this huge burger, looked absolutely amazing. I went with the grilled fish instead, trying to keep things a bit lighter.",
+    "output": "food: grilled fish, quantity: null, unit: null"
+  },
+  {
+    "input": "Had lunch with my friend today at that new place by the market. She had this huge burger, looked absolutely amazing. I went with the grilled fish instead, trying to keep things a bit lighter. We sat outside which was nice for once.",
+    "output": "food: grilled fish, quantity: null, unit: null"
+  },
+  {
+    "input": "Had lunch with my friend today at that new place by the market. She had this huge burger, looked absolutely amazing. I went with the grilled fish instead, trying to keep things a bit lighter. We sat outside which was nice for once. My fish was probably 200g, really fresh.",
+    "output": "food: grilled fish, quantity: 200, unit: g"
+  },
+  {
+    "input": "Had lunch with my friend today at that new place by the market. She had this huge burger, looked absolutely amazing. I went with the grilled fish instead, trying to keep things a bit lighter. We sat outside which was nice for once. My fish was probably 200g, really fresh. Would definitely go back.",
+    "output": "food: grilled fish, quantity: 200, unit: g"
+  },
+  {
+    "input": "Made a smoothie this morning.",
+    "output": "food: smoothie, quantity: null, unit: null"
+  },
+  {
+    "input": "Made a smoothie this morning. I was going to go for a run but it started raining so I didn't.",
+    "output": "food: smoothie, quantity: null, unit: null"
+  },
+  {
+    "input": "Made a smoothie this morning. I was going to go for a run but it started raining so I didn't. Ended up watching something on TV for a bit instead.",
+    "output": "food: smoothie, quantity: null, unit: null"
+  },
+  {
+    "input": "Made a smoothie this morning. I was going to go for a run but it started raining so I didn't. Ended up watching something on TV for a bit instead. Did some tidying around the flat.",
+    "output": "food: smoothie, quantity: null, unit: null"
+  },
+  {
+    "input": "Made a smoothie this morning. I was going to go for a run but it started raining so I didn't. Ended up watching something on TV for a bit instead. Did some tidying around the flat. The smoothie was about 400ml, had banana and some oats blended in.",
+    "output": "food: smoothie, quantity: 400, unit: ml"
+  },
+  {
+    "input": "Had a really long team meeting this morning, like 3 hours. Someone brought in donuts which honestly saved the day.",
+    "output": "food: donuts, quantity: null, unit: null"
+  },
+  {
+    "input": "Had a really long team meeting this morning, like 3 hours. Someone brought in donuts which honestly saved the day. I had a couple during the break.",
+    "output": "food: donuts, quantity: null, unit: null"
+  },
+  {
+    "input": "Had a really long team meeting this morning, like 3 hours. Someone brought in donuts which honestly saved the day. I had a couple during the break. Also had a coffee to get through the rest of the afternoon.",
+    "output": "food: donuts, quantity: null, unit: null|food: coffee, quantity: null, unit: null"
+  },
+  {
+    "input": "Had a really long team meeting this morning, like 3 hours. Someone brought in donuts which honestly saved the day. I had a couple during the break. Also had a coffee to get through the rest of the afternoon. Two donuts and a large coffee, roughly 500ml.",
+    "output": "food: donuts, quantity: 2, unit: pieces|food: coffee, quantity: 500, unit: ml"
+  },
+  {
+    "input": "First proper breakfast in a while today, wanted something filling. Had oatmeal which I've been meaning to get back into.",
+    "output": "food: oatmeal, quantity: null, unit: null"
+  },
+  {
+    "input": "First proper breakfast in a while today, wanted something filling. Had oatmeal which I've been meaning to get back into. Pretty sure I had like 2 cups of it.",
+    "output": "food: oatmeal, quantity: 2, unit: cups"
+  },
+  {
+    "input": "First proper breakfast in a while today, wanted something filling. Had oatmeal which I've been meaning to get back into. Pretty sure I had like 2 cups of it. Wait no that's for measuring liquids, for oats it's more like 80g.",
+    "output": "food: oatmeal, quantity: 80, unit: g"
+  },
+  {
+    "input": "First proper breakfast in a while today, wanted something filling. Had oatmeal which I've been meaning to get back into. Pretty sure I had like 2 cups of it. Wait no that's for measuring liquids, for oats it's more like 80g. Had some strawberries with it too.",
+    "output": "food: oatmeal, quantity: 80, unit: g|food: strawberries, quantity: null, unit: null"
+  },
+  {
+    "input": "First proper breakfast in a while today, wanted something filling. Had oatmeal which I've been meaning to get back into. Pretty sure I had like 2 cups of it. Wait no that's for measuring liquids, for oats it's more like 80g. Had some strawberries with it too. Quick breakfast, then a busy morning of back-to-back calls.",
+    "output": "food: oatmeal, quantity: 80, unit: g|food: strawberries, quantity: null, unit: null"
+  },
+  {
+    "input": "Sunday meal prep is always a mission but it saves so much time during the week. This week I'm making a batch of turkey and quinoa.",
+    "output": "food: turkey, quantity: null, unit: null|food: quinoa, quantity: null, unit: null"
+  },
+  {
+    "input": "Sunday meal prep is always a mission but it saves so much time during the week. This week I'm making a batch of turkey and quinoa. Got some veggies to roast too.",
+    "output": "food: turkey, quantity: null, unit: null|food: quinoa, quantity: null, unit: null|food: mixed veg, quantity: null, unit: null"
+  },
+  {
+    "input": "Sunday meal prep is always a mission but it saves so much time during the week. This week I'm making a batch of turkey and quinoa. Got some veggies to roast too. Put on a playlist and just worked through it.",
+    "output": "food: turkey, quantity: null, unit: null|food: quinoa, quantity: null, unit: null|food: mixed veg, quantity: null, unit: null"
+  },
+  {
+    "input": "Sunday meal prep is always a mission but it saves so much time during the week. This week I'm making a batch of turkey and quinoa. Got some veggies to roast too. Put on a playlist and just worked through it. Each serving of turkey is 200g raw which I measured out.",
+    "output": "food: turkey, quantity: 200, unit: g|food: quinoa, quantity: null, unit: null|food: mixed veg, quantity: null, unit: null"
+  },
+  {
+    "input": "Sunday meal prep is always a mission but it saves so much time during the week. This week I'm making a batch of turkey and quinoa. Got some veggies to roast too. Put on a playlist and just worked through it. Each serving of turkey is 200g raw which I measured out. Quinoa comes to about 150g cooked per portion.",
+    "output": "food: turkey, quantity: 200, unit: g|food: quinoa, quantity: 150, unit: g|food: mixed veg, quantity: null, unit: null"
+  },
+  {
+    "input": "Sunday meal prep is always a mission but it saves so much time during the week. This week I'm making a batch of turkey and quinoa. Got some veggies to roast too. Put on a playlist and just worked through it. Each serving of turkey is 200g raw which I measured out. Quinoa comes to about 150g cooked per portion. And maybe 100g of mixed veg per serving.",
+    "output": "food: turkey, quantity: 200, unit: g|food: quinoa, quantity: 150, unit: g|food: mixed veg, quantity: 100, unit: g"
+  },
+  {
+    "input": "Sunday meal prep is always a mission but it saves so much time during the week. This week I'm making a batch of turkey and quinoa. Got some veggies to roast too. Put on a playlist and just worked through it. Each serving of turkey is 200g raw which I measured out. Quinoa comes to about 150g cooked per portion. And maybe 100g of mixed veg per serving. Containers are all stacked in the fridge, ready to go.",
+    "output": "food: turkey, quantity: 200, unit: g|food: quinoa, quantity: 150, unit: g|food: mixed veg, quantity: 100, unit: g"
+  },
+  {
+    "input": "Hit the gym after work, decent session. On the way out I grabbed a rockstar energy drink.",
+    "output": "food: rockstar energy drink, quantity: null, unit: null"
+  },
+  {
+    "input": "Hit the gym after work, decent session. On the way out I grabbed a rockstar energy drink. Also picked up a protein bar.",
+    "output": "food: rockstar energy drink, quantity: null, unit: null|food: protein bar, quantity: null, unit: null"
+  },
+  {
+    "input": "Hit the gym after work, decent session. On the way out I grabbed a rockstar energy drink. Also picked up a protein bar. Had a long drive home after.",
+    "output": "food: rockstar energy drink, quantity: null, unit: null|food: protein bar, quantity: null, unit: null"
+  },
+  {
+    "input": "Hit the gym after work, decent session. On the way out I grabbed a rockstar energy drink. Also picked up a protein bar. Had a long drive home after. Drank the rockstar on the way, the whole can so one.",
+    "output": "food: rockstar energy drink, quantity: 1, unit: can|food: protein bar, quantity: null, unit: null"
+  },
+  {
+    "input": "Hit the gym after work, decent session. On the way out I grabbed a rockstar energy drink. Also picked up a protein bar. Had a long drive home after. Drank the rockstar on the way, the whole can so one. The protein bar was the 65g one.",
+    "output": "food: rockstar energy drink, quantity: 1, unit: can|food: protein bar, quantity: 65, unit: g"
+  },
+  {
+    "input": "Long day at the office, didn't have much time to eat properly. Grabbed something quick at the canteen. Had a chicken wrap and drank a coke.",
+    "output": "food: chicken wrap, quantity: null, unit: null|food: coke, quantity: null, unit: null"
+  },
+  {
+    "input": "Long day at the office, didn't have much time to eat properly. Grabbed something quick at the canteen. Had a chicken wrap and drank a coke. Ate at my desk while finishing off a report.",
+    "output": "food: chicken wrap, quantity: null, unit: null|food: coke, quantity: null, unit: null"
+  },
+  {
+    "input": "Long day at the office, didn't have much time to eat properly. Grabbed something quick at the canteen. Had a chicken wrap and drank a coke. Ate at my desk while finishing off a report. The wrap was a standard size, about 250g.",
+    "output": "food: chicken wrap, quantity: 250, unit: g|food: coke, quantity: null, unit: null"
+  },
+  {
+    "input": "Long day at the office, didn't have much time to eat properly. Grabbed something quick at the canteen. Had a chicken wrap and drank a coke. Ate at my desk while finishing off a report. The wrap was a standard size, about 250g. Coke was just the regular 330ml can.",
+    "output": "food: chicken wrap, quantity: 250, unit: g|food: coke, quantity: 330, unit: ml"
+  },
+  {
+    "input": "Did a 5km run this morning, not my longest but felt good. Got back home and immediately drank a big glass of water.",
+    "output": "food: water, quantity: null, unit: null"
+  },
+  {
+    "input": "Did a 5km run this morning, not my longest but felt good. Got back home and immediately drank a big glass of water. Then had some eggs and toast for breakfast.",
+    "output": "food: water, quantity: null, unit: null|food: eggs, quantity: null, unit: null|food: toast, quantity: null, unit: null"
+  },
+  {
+    "input": "Did a 5km run this morning, not my longest but felt good. Got back home and immediately drank a big glass of water. Then had some eggs and toast for breakfast. Felt much better after eating.",
+    "output": "food: water, quantity: null, unit: null|food: eggs, quantity: null, unit: null|food: toast, quantity: null, unit: null"
+  },
+  {
+    "input": "Did a 5km run this morning, not my longest but felt good. Got back home and immediately drank a big glass of water. Then had some eggs and toast for breakfast. Felt much better after eating. The water was about 400ml.",
+    "output": "food: water, quantity: 400, unit: ml|food: eggs, quantity: null, unit: null|food: toast, quantity: null, unit: null"
+  },
+  {
+    "input": "Did a 5km run this morning, not my longest but felt good. Got back home and immediately drank a big glass of water. Then had some eggs and toast for breakfast. Felt much better after eating. The water was about 400ml. Had 2 eggs and 2 slices of toast.",
+    "output": "food: water, quantity: 400, unit: ml|food: eggs, quantity: 2, unit: pieces|food: toast, quantity: 2, unit: slices"
+  },
+  {
+    "input": "Went to a house party at the weekend. There was loads of food and drinks out. I ate some chips and also drank a couple of beers.",
+    "output": "food: chips, quantity: null, unit: null|food: beers, quantity: null, unit: null"
+  },
+  {
+    "input": "Went to a house party at the weekend. There was loads of food and drinks out. I ate some chips and also drank a couple of beers. Was there for a few hours, really good night.",
+    "output": "food: chips, quantity: null, unit: null|food: beers, quantity: null, unit: null"
+  },
+  {
+    "input": "Went to a house party at the weekend. There was loads of food and drinks out. I ate some chips and also drank a couple of beers. Was there for a few hours, really good night. The chips were probably 60g total.",
+    "output": "food: chips, quantity: 60, unit: g|food: beers, quantity: null, unit: null"
+  },
+  {
+    "input": "Went to a house party at the weekend. There was loads of food and drinks out. I ate some chips and also drank a couple of beers. Was there for a few hours, really good night. The chips were probably 60g total. Drank 2 beers over the evening.",
+    "output": "food: chips, quantity: 60, unit: g|food: beers, quantity: 2, unit: pieces"
+  }
+]

@@ -1,0 +1,1846 @@
+[
+  {
+    "note": "delayed quantity - Italian lunch, busy work day",
+    "sentences": [
+      "It was one of those Tuesdays where everything moved kind of slow.",
+      "Had a meeting first thing that dragged on way longer than it needed to.",
+      "Finally got a break around noon and decided to head out for lunch.",
+      "There's this Italian place a few streets over that I keep meaning to try.",
+      "Ended up going there and ordering some pasta off the specials board.",
+      "The waiter recommended the one with the roasted tomato and it was a good call.",
+      "Went back to the office after and had a pretty productive afternoon.",
+      "Anyway, the pasta portion was generous, about 350g I'd say."
+    ],
+    "foods": [
+      {
+        "name": "pasta",
+        "name_sentence": 4,
+        "initial": null,
+        "final": {
+          "quantity": 350,
+          "unit": "g",
+          "sentence": 7
+        }
+      }
+    ]
+  },
+  {
+    "note": "delayed quantity - two foods, long commute day",
+    "sentences": [
+      "Rough day at work, back-to-back calls from about 9 until 4.",
+      "Traffic was a nightmare on the way home, took nearly an hour.",
+      "Stopped at the takeaway near my flat and grabbed some grilled chicken.",
+      "Also picked up some white rice to go with it.",
+      "Got home, dumped everything on the table and just sat for a while.",
+      "Put on something mindless on TV and ate while watching.",
+      "The chicken breast was decent, maybe around 200g.",
+      "Rice was just a small scoop from the container, about 1 cup."
+    ],
+    "foods": [
+      {
+        "name": "grilled chicken",
+        "name_sentence": 2,
+        "initial": null,
+        "final": {
+          "quantity": 200,
+          "unit": "g",
+          "sentence": 6
+        }
+      },
+      {
+        "name": "white rice",
+        "name_sentence": 3,
+        "initial": null,
+        "final": {
+          "quantity": 1,
+          "unit": "cup",
+          "sentence": 7
+        }
+      }
+    ]
+  },
+  {
+    "note": "delayed quantity - morning oatmeal, not a rush",
+    "sentences": [
+      "Alarm went off at half seven and for once I didn't snooze it.",
+      "Made a proper breakfast for a change instead of just coffee.",
+      "Went with oatmeal on the stove, the proper rolled oats kind.",
+      "Put some honey and a few blueberries on top.",
+      "Was reading the news on my phone while it cooled down.",
+      "Had to leave by quarter past eight to catch my bus.",
+      "Managed to finish everything before I had to go.",
+      "Dry weight for the oats was about 80g."
+    ],
+    "foods": [
+      {
+        "name": "oatmeal",
+        "name_sentence": 2,
+        "initial": null,
+        "final": {
+          "quantity": 80,
+          "unit": "g",
+          "sentence": 7
+        }
+      }
+    ]
+  },
+  {
+    "note": "delayed quantity - pre-gym snack, both quantities at end",
+    "sentences": [
+      "Had a gym session booked for 6pm so I couldn't eat too much during the day.",
+      "Work was fairly quiet, just a few emails and a bit of admin.",
+      "Around 4 I grabbed a protein bar and some almonds to fuel up before going.",
+      "The gym was pretty quiet on a Wednesday evening which was nice.",
+      "Did mostly upper body, felt strong today.",
+      "The protein bar was the big 70g one, not the small kind.",
+      "Almonds were just a small handful I grabbed from the bag, like 20g.",
+      "Stopped for a stretch and a shower and was home by 8."
+    ],
+    "foods": [
+      {
+        "name": "protein bar",
+        "name_sentence": 2,
+        "initial": null,
+        "final": {
+          "quantity": 70,
+          "unit": "g",
+          "sentence": 5
+        }
+      },
+      {
+        "name": "almonds",
+        "name_sentence": 2,
+        "initial": null,
+        "final": {
+          "quantity": 20,
+          "unit": "g",
+          "sentence": 6
+        }
+      }
+    ]
+  },
+  {
+    "note": "delayed quantity - dinner party, long delay, no quantity for veg",
+    "sentences": [
+      "Big social weekend, had a dinner party at my friend's place on Saturday.",
+      "There were about eight of us which was a fun size for a gathering.",
+      "The host had put together a big spread with a few different dishes on the table.",
+      "I helped myself to some salmon and vegetables.",
+      "The conversation was great and we all ended up staying until pretty late.",
+      "Someone brought wine which was a nice touch.",
+      "I was loosely trying to keep track of what I ate.",
+      "The salmon portion was about 180g by my estimate."
+    ],
+    "foods": [
+      {
+        "name": "salmon",
+        "name_sentence": 3,
+        "initial": null,
+        "final": {
+          "quantity": 180,
+          "unit": "g",
+          "sentence": 7
+        }
+      },
+      {
+        "name": "vegetables",
+        "name_sentence": 3,
+        "initial": null,
+        "final": null
+      }
+    ]
+  },
+  {
+    "note": "delayed quantity - office lunch, one quantity one without",
+    "sentences": [
+      "Had a fairly standard work day today, nothing particularly interesting.",
+      "Skipped breakfast which I know I shouldn't do.",
+      "Went to the cafe around the corner from the office for lunch.",
+      "They had a chicken sandwich and some soup on the board.",
+      "It was getting busy so I had to eat quickly to get back.",
+      "The sandwich was decent but a bit overpriced for what it was.",
+      "Had some admin to wrap up in the afternoon, then a quick call.",
+      "The soup was just a side cup, maybe 200ml."
+    ],
+    "foods": [
+      {
+        "name": "chicken sandwich",
+        "name_sentence": 3,
+        "initial": null,
+        "final": null
+      },
+      {
+        "name": "soup",
+        "name_sentence": 3,
+        "initial": null,
+        "final": {
+          "quantity": 200,
+          "unit": "ml",
+          "sentence": 7
+        }
+      }
+    ]
+  },
+  {
+    "note": "delayed quantity - Sunday meal prep, three foods",
+    "sentences": [
+      "Did my Sunday meal prep today, got up at 10 and spent about two hours in the kitchen.",
+      "The plan for the week is chicken breast, brown rice, and broccoli.",
+      "Put on a podcast while I was cooking, made the whole thing much more enjoyable.",
+      "Got everything portioned out into containers when it was done.",
+      "Each serving of the chicken breast came out to about 150g.",
+      "Rice was approximately 200g cooked per container.",
+      "Threw some broccoli in each one too, roughly 80g.",
+      "Should cover me for lunch Monday through Thursday at least."
+    ],
+    "foods": [
+      {
+        "name": "chicken breast",
+        "name_sentence": 1,
+        "initial": null,
+        "final": {
+          "quantity": 150,
+          "unit": "g",
+          "sentence": 4
+        }
+      },
+      {
+        "name": "brown rice",
+        "name_sentence": 1,
+        "initial": null,
+        "final": {
+          "quantity": 200,
+          "unit": "g",
+          "sentence": 5
+        }
+      },
+      {
+        "name": "broccoli",
+        "name_sentence": 1,
+        "initial": null,
+        "final": {
+          "quantity": 80,
+          "unit": "g",
+          "sentence": 6
+        }
+      }
+    ]
+  },
+  {
+    "note": "delayed quantity - food tracking diary, cereal + salad + salmon",
+    "sentences": [
+      "Tracked everything I ate today, trying to be more consistent with it.",
+      "Morning, afternoon, evening, just noted it all down as I went.",
+      "Had cereal for breakfast and a salad at lunch and salmon for dinner.",
+      "Measured the cereal this time, 50g.",
+      "The salad was just a big mixed one from the shop, no idea of the weight.",
+      "Late evening I was still a bit hungry and had a couple of crackers.",
+      "The salmon fillet I actually weighed on the kitchen scale.",
+      "Came to 220g which is pretty standard for a fillet."
+    ],
+    "foods": [
+      {
+        "name": "cereal",
+        "name_sentence": 2,
+        "initial": null,
+        "final": {
+          "quantity": 50,
+          "unit": "g",
+          "sentence": 3
+        }
+      },
+      {
+        "name": "salad",
+        "name_sentence": 2,
+        "initial": null,
+        "final": null
+      },
+      {
+        "name": "salmon",
+        "name_sentence": 2,
+        "initial": null,
+        "final": {
+          "quantity": 220,
+          "unit": "g",
+          "sentence": 7
+        }
+      }
+    ]
+  },
+  {
+    "note": "delayed quantity - WFH snacking, nuts early, apple afternoon",
+    "sentences": [
+      "Was working from home today which always makes me snack more.",
+      "Had a couple of long video calls in the morning so I was stuck at my desk.",
+      "Around 10 I had some nuts.",
+      "Then got pulled back into the calls and didn't eat much until the afternoon.",
+      "Had an apple around 3pm.",
+      "Did a quick walk around the block just to get out of the flat.",
+      "Made dinner in the evening, nothing too heavy.",
+      "The nuts were about 30g when I measured them.",
+      "The apple was a decent medium size, call it 150g."
+    ],
+    "foods": [
+      {
+        "name": "nuts",
+        "name_sentence": 2,
+        "initial": null,
+        "final": {
+          "quantity": 30,
+          "unit": "g",
+          "sentence": 7
+        }
+      },
+      {
+        "name": "apple",
+        "name_sentence": 4,
+        "initial": null,
+        "final": {
+          "quantity": 150,
+          "unit": "g",
+          "sentence": 8
+        }
+      }
+    ]
+  },
+  {
+    "note": "delayed quantity - birthday party, three foods across many sentences",
+    "sentences": [
+      "Went to my friend's birthday party last night, it was a pretty good time.",
+      "They'd hired out a room at a bar in the city centre.",
+      "There was a buffet spread laid out which I definitely took advantage of.",
+      "Had some cake, chips, and those little sandwich triangles.",
+      "Ended up chatting for hours, completely lost track of time.",
+      "The music was a bit loud but the vibe was good.",
+      "The cake slice was a generous one, probably around 200g.",
+      "I kept picking at the chips throughout the night, probably 50g total.",
+      "Had maybe 3 sandwich triangles over the course of the evening."
+    ],
+    "foods": [
+      {
+        "name": "cake",
+        "name_sentence": 3,
+        "initial": null,
+        "final": {
+          "quantity": 200,
+          "unit": "g",
+          "sentence": 6
+        }
+      },
+      {
+        "name": "chips",
+        "name_sentence": 3,
+        "initial": null,
+        "final": {
+          "quantity": 50,
+          "unit": "g",
+          "sentence": 7
+        }
+      },
+      {
+        "name": "sandwich triangles",
+        "name_sentence": 3,
+        "initial": null,
+        "final": {
+          "quantity": 3,
+          "unit": "pieces",
+          "sentence": 8
+        }
+      }
+    ]
+  },
+  {
+    "note": "delayed quantity - comfort eating after bad day",
+    "sentences": [
+      "Work has been stressful lately and today was particularly rough.",
+      "Had a meeting where nothing went the way it was supposed to.",
+      "Got home late and just wanted to switch off completely.",
+      "Ended up having some ice cream and cookies, total comfort food situation.",
+      "Put on the TV and just let myself decompress for a bit.",
+      "I know it's not ideal but sometimes you just need it.",
+      "The ice cream was a whole pint.",
+      "And around 4 cookies.",
+      "Felt better immediately and worse an hour later, classic."
+    ],
+    "foods": [
+      {
+        "name": "ice cream",
+        "name_sentence": 3,
+        "initial": null,
+        "final": {
+          "quantity": 1,
+          "unit": "pint",
+          "sentence": 6
+        }
+      },
+      {
+        "name": "cookies",
+        "name_sentence": 3,
+        "initial": null,
+        "final": {
+          "quantity": 4,
+          "unit": "pieces",
+          "sentence": 7
+        }
+      }
+    ]
+  },
+  {
+    "note": "delayed quantity - early morning flight, airport food",
+    "sentences": [
+      "Early morning flight today, had to be at the airport by 5:30am.",
+      "Set two alarms just to be safe and somehow still felt rushed.",
+      "At the airport I grabbed a coffee and a muffin from one of the cafes.",
+      "The place was packed, lots of people on early flights too.",
+      "Found a seat near the gate and tried to wake up properly.",
+      "The flight itself was only about an hour, nothing eventful.",
+      "The coffee was a standard medium, around 400ml.",
+      "The muffin was one of the big blueberry ones, must have been 150g at least."
+    ],
+    "foods": [
+      {
+        "name": "coffee",
+        "name_sentence": 2,
+        "initial": null,
+        "final": {
+          "quantity": 400,
+          "unit": "ml",
+          "sentence": 6
+        }
+      },
+      {
+        "name": "muffin",
+        "name_sentence": 2,
+        "initial": null,
+        "final": {
+          "quantity": 150,
+          "unit": "g",
+          "sentence": 7
+        }
+      }
+    ]
+  },
+  {
+    "note": "delayed quantity - uncertain recall, busy blur of a day",
+    "sentences": [
+      "Yesterday was a bit of a busy blur to be honest.",
+      "Can't totally remember the exact order of things.",
+      "I know I had some kind of sandwich for lunch.",
+      "And some chips on the side I think.",
+      "The afternoon was meetings back to back.",
+      "Got home late and went straight to bed pretty much.",
+      "If I had to guess, the sandwich was probably around 300g.",
+      "The chips were a small bag, maybe 30g."
+    ],
+    "foods": [
+      {
+        "name": "sandwich",
+        "name_sentence": 2,
+        "initial": null,
+        "final": {
+          "quantity": 300,
+          "unit": "g",
+          "sentence": 6
+        }
+      },
+      {
+        "name": "chips",
+        "name_sentence": 3,
+        "initial": null,
+        "final": {
+          "quantity": 30,
+          "unit": "g",
+          "sentence": 7
+        }
+      }
+    ]
+  },
+  {
+    "note": "delayed quantity - date night restaurant, salad not weighed",
+    "sentences": [
+      "Went out for dinner with my partner tonight, we hadn't been out in a while.",
+      "Booked this Italian place that's been on our list for ages.",
+      "We got there and the atmosphere was really nice, candlelit and everything.",
+      "I ordered the lasagna and a side salad.",
+      "We ended up talking for hours, the meal sort of stretched out.",
+      "The service was great, attentive but not in your face.",
+      "I had a really good time and would definitely go back.",
+      "The lasagna was a solid portion, I'd estimate around 350g."
+    ],
+    "foods": [
+      {
+        "name": "lasagna",
+        "name_sentence": 3,
+        "initial": null,
+        "final": {
+          "quantity": 350,
+          "unit": "g",
+          "sentence": 7
+        }
+      },
+      {
+        "name": "salad",
+        "name_sentence": 3,
+        "initial": null,
+        "final": null
+      }
+    ]
+  },
+  {
+    "note": "delayed quantity - productive day, leftovers for lunch",
+    "sentences": [
+      "Today was actually a really productive one, got loads done.",
+      "Finished a big project I'd been working on for weeks.",
+      "Had lunch at my desk somewhere in the middle of the day.",
+      "Just some leftover rice and vegetables from the night before.",
+      "Did a quick tidy of my flat in the evening.",
+      "Called my parents which I'd been meaning to do for a while.",
+      "Was a good day overall, felt like I actually accomplished stuff.",
+      "The rice was maybe 200g and the vegetables were around 100g."
+    ],
+    "foods": [
+      {
+        "name": "rice",
+        "name_sentence": 3,
+        "initial": null,
+        "final": {
+          "quantity": 200,
+          "unit": "g",
+          "sentence": 7
+        }
+      },
+      {
+        "name": "vegetables",
+        "name_sentence": 3,
+        "initial": null,
+        "final": {
+          "quantity": 100,
+          "unit": "g",
+          "sentence": 7
+        }
+      }
+    ]
+  },
+  {
+    "note": "delayed quantity - chatty diary with sushi treat",
+    "sentences": [
+      "Today was a really rough one, not going to lie.",
+      "Nothing went right from the moment I woke up.",
+      "Alarm didn't go off, I was late, and then a meeting that should have been an email.",
+      "But I treated myself to some sushi for lunch to make up for it.",
+      "Texted my friend about the day and they were very sympathetic.",
+      "The evening was quieter thankfully, just watched something on the couch.",
+      "The sushi was like 12 pieces, really fresh."
+    ],
+    "foods": [
+      {
+        "name": "sushi",
+        "name_sentence": 3,
+        "initial": null,
+        "final": {
+          "quantity": 12,
+          "unit": "pieces",
+          "sentence": 6
+        }
+      }
+    ]
+  },
+  {
+    "note": "negation - pizza overestimate then correct",
+    "sentences": [
+      "Friday night, decided to get pizza and just relax.",
+      "Ordered from that place down the road that does the wood-fired ones.",
+      "Was watching a film while eating which probably didn't help me track it.",
+      "I had about 5 slices I think.",
+      "Actually hold on, looking at what's left in the box I only had 2 slices.",
+      "I always overestimate how much pizza I eat.",
+      "The rest went in the fridge for tomorrow."
+    ],
+    "foods": [
+      {
+        "name": "pizza",
+        "name_sentence": 0,
+        "initial": {
+          "quantity": 5,
+          "unit": "slices",
+          "sentence": 3
+        },
+        "final": {
+          "quantity": 2,
+          "unit": "slices",
+          "sentence": 4
+        }
+      }
+    ]
+  },
+  {
+    "note": "negation - steak underestimate then corrected by weighing",
+    "sentences": [
+      "Made steak at home tonight, been craving it all week.",
+      "Got a piece from the butcher on the way home.",
+      "Cooked it medium rare with some garlic butter, kept it simple.",
+      "The piece seemed smallish when I put it on the plate, I thought maybe 150g.",
+      "Weighed the leftovers though and it turns out I had closer to 280g.",
+      "No wonder I was so full.",
+      "Had a glass of wine with it too, nice little mid-week treat."
+    ],
+    "foods": [
+      {
+        "name": "steak",
+        "name_sentence": 0,
+        "initial": {
+          "quantity": 150,
+          "unit": "g",
+          "sentence": 3
+        },
+        "final": {
+          "quantity": 280,
+          "unit": "g",
+          "sentence": 4
+        }
+      }
+    ]
+  },
+  {
+    "note": "negation - yogurt cups way off, granola without quantity",
+    "sentences": [
+      "Breakfast was yogurt and granola, keeping it simple this morning.",
+      "Was trying to leave the house quickly so I just grabbed what was there.",
+      "I think I had like 3 cups of yogurt.",
+      "No wait that's way too much, it was more like 1 cup.",
+      "The granola was just a small sprinkle on top, not much at all.",
+      "Got out the door on time which felt like a win.",
+      "Had a busy morning of errands after."
+    ],
+    "foods": [
+      {
+        "name": "yogurt",
+        "name_sentence": 0,
+        "initial": {
+          "quantity": 3,
+          "unit": "cups",
+          "sentence": 2
+        },
+        "final": {
+          "quantity": 1,
+          "unit": "cup",
+          "sentence": 3
+        }
+      },
+      {
+        "name": "granola",
+        "name_sentence": 0,
+        "initial": null,
+        "final": null
+      }
+    ]
+  },
+  {
+    "note": "negation - fried rice delayed then corrected, edamame no quantity",
+    "sentences": [
+      "Today was a hectic one from start to finish.",
+      "Meetings all morning and then a deadline hitting in the afternoon.",
+      "Barely had time to breathe let alone eat properly.",
+      "Grabbed a quick bowl of fried rice and some edamame from the place nearby.",
+      "Ate at my desk while still half-working which isn't ideal.",
+      "I'm guessing the rice was about 400g.",
+      "Actually it was a large bowl so probably closer to 500g.",
+      "Resolved the deadline by end of day which was a relief."
+    ],
+    "foods": [
+      {
+        "name": "fried rice",
+        "name_sentence": 3,
+        "initial": {
+          "quantity": 400,
+          "unit": "g",
+          "sentence": 5
+        },
+        "final": {
+          "quantity": 500,
+          "unit": "g",
+          "sentence": 6
+        }
+      },
+      {
+        "name": "edamame",
+        "name_sentence": 3,
+        "initial": null,
+        "final": null
+      }
+    ]
+  },
+  {
+    "note": "negation - eggs corrected, toast unchanged",
+    "sentences": [
+      "Had a lazy morning for once so I made a big breakfast.",
+      "Put on some music in the kitchen and took my time over it.",
+      "Made some eggs and toast.",
+      "I think I had 4 eggs and 2 slices of toast.",
+      "Oh wait, I only had 2 eggs, not 4, I'm thinking of yesterday.",
+      "The toast was definitely 2 slices though.",
+      "Took my time eating, really enjoyed having nothing to rush to.",
+      "Got through half a pot of coffee while I was at it."
+    ],
+    "foods": [
+      {
+        "name": "eggs",
+        "name_sentence": 2,
+        "initial": {
+          "quantity": 4,
+          "unit": "pieces",
+          "sentence": 3
+        },
+        "final": {
+          "quantity": 2,
+          "unit": "pieces",
+          "sentence": 4
+        }
+      },
+      {
+        "name": "toast",
+        "name_sentence": 2,
+        "initial": {
+          "quantity": 2,
+          "unit": "slices",
+          "sentence": 3
+        },
+        "final": null
+      }
+    ]
+  },
+  {
+    "note": "negation - burger delayed then corrected after looking it up",
+    "sentences": [
+      "Had a decent lunch today, went to a sit-down place for once instead of grabbing something quick.",
+      "There's this burger place nearby that I've walked past a million times.",
+      "Finally went in and got a burger.",
+      "Also got some fries on the side.",
+      "Was a good meal overall, better than I expected honestly.",
+      "I thought the burger was around 300g based on the size.",
+      "Looked it up after and it's actually 200g for that size.",
+      "The fries were a regular small portion, about 120g."
+    ],
+    "foods": [
+      {
+        "name": "burger",
+        "name_sentence": 2,
+        "initial": {
+          "quantity": 300,
+          "unit": "g",
+          "sentence": 5
+        },
+        "final": {
+          "quantity": 200,
+          "unit": "g",
+          "sentence": 6
+        }
+      },
+      {
+        "name": "fries",
+        "name_sentence": 3,
+        "initial": null,
+        "final": {
+          "quantity": 120,
+          "unit": "g",
+          "sentence": 7
+        }
+      }
+    ]
+  },
+  {
+    "note": "negation - rice over-estimated, chicken delayed",
+    "sentences": [
+      "Dinner tonight was pretty simple, just stuff I had in the fridge.",
+      "Made some rice and chicken, the easy standby meal.",
+      "Threw in some seasoning to make it not completely boring.",
+      "I thought I ate maybe 3 cups of rice, it felt like a lot.",
+      "Looking at the portion now though, it was probably more like 1 cup.",
+      "The chicken was a standard breast.",
+      "Weighed it before cooking, came to 150g."
+    ],
+    "foods": [
+      {
+        "name": "rice",
+        "name_sentence": 1,
+        "initial": {
+          "quantity": 3,
+          "unit": "cups",
+          "sentence": 3
+        },
+        "final": {
+          "quantity": 1,
+          "unit": "cup",
+          "sentence": 4
+        }
+      },
+      {
+        "name": "chicken",
+        "name_sentence": 1,
+        "initial": null,
+        "final": {
+          "quantity": 150,
+          "unit": "g",
+          "sentence": 6
+        }
+      }
+    ]
+  },
+  {
+    "note": "immediate correction - beef steak, wrong then right in same sentence",
+    "sentences": [
+      "Beef steak for lunch today, treating myself since I worked through the weekend.",
+      "Cooked it at home which is always more satisfying than ordering out.",
+      "Had maybe 300g - actually no, it was more like 400g.",
+      "Was a nice big piece.",
+      "Felt pretty stuffed afterwards and had a slow afternoon.",
+      "Not complaining though."
+    ],
+    "foods": [
+      {
+        "name": "beef steak",
+        "name_sentence": 0,
+        "initial": {
+          "quantity": 300,
+          "unit": "g",
+          "sentence": 2
+        },
+        "final": {
+          "quantity": 400,
+          "unit": "g",
+          "sentence": 2
+        }
+      }
+    ]
+  },
+  {
+    "note": "immediate correction - protein shake scoops, corrected next sentence",
+    "sentences": [
+      "Wrapped up a decent gym session tonight, hit everything on the program.",
+      "Felt strong which is always a good sign heading into the week.",
+      "Made a protein shake when I got home, 2 scoops.",
+      "Wait, just 1 scoop, I ran out without noticing.",
+      "Was still pretty thick which was fine.",
+      "Had it while scrolling my phone and then hit the shower.",
+      "Early night after that."
+    ],
+    "foods": [
+      {
+        "name": "protein shake",
+        "name_sentence": 2,
+        "initial": {
+          "quantity": 2,
+          "unit": "scoops",
+          "sentence": 2
+        },
+        "final": {
+          "quantity": 1,
+          "unit": "scoop",
+          "sentence": 3
+        }
+      }
+    ]
+  },
+  {
+    "note": "immediate correction - chips servings",
+    "sentences": [
+      "Afternoon slump hit hard today so I went looking for a snack.",
+      "Found some chips in the cupboard.",
+      "Had like 3 servings I think.",
+      "Nope, probably just 1 serving, the bag wasn't even that big.",
+      "I always misjudge packet sizes.",
+      "Made a coffee and got back to work after."
+    ],
+    "foods": [
+      {
+        "name": "chips",
+        "name_sentence": 1,
+        "initial": {
+          "quantity": 3,
+          "unit": "servings",
+          "sentence": 2
+        },
+        "final": {
+          "quantity": 1,
+          "unit": "serving",
+          "sentence": 3
+        }
+      }
+    ]
+  },
+  {
+    "note": "immediate correction - pasta servings within same sentence",
+    "sentences": [
+      "Made pasta for dinner, my go-to lazy meal.",
+      "Was on the phone with a friend while cooking so wasn't paying full attention.",
+      "Had 2 servings of - wait no 3 servings of pasta.",
+      "And a glass of water on the side.",
+      "Put on a film after and fell asleep on the couch.",
+      "Classic."
+    ],
+    "foods": [
+      {
+        "name": "pasta",
+        "name_sentence": 0,
+        "initial": {
+          "quantity": 2,
+          "unit": "servings",
+          "sentence": 2
+        },
+        "final": {
+          "quantity": 3,
+          "unit": "servings",
+          "sentence": 2
+        }
+      }
+    ]
+  },
+  {
+    "note": "immediate correction - banana count, then pasta delayed",
+    "sentences": [
+      "Hit the gym early this morning before work, good session.",
+      "Had a banana on the way out, like 2 of them actually.",
+      "Wait, just 1 banana, the other one was still green so I left it.",
+      "Work was manic, back-to-back from 9 until nearly 5.",
+      "Made some pasta for dinner when I got in.",
+      "Added a bit of pesto from the jar.",
+      "Was a filling end to a long day.",
+      "Big portion, around 400g."
+    ],
+    "foods": [
+      {
+        "name": "banana",
+        "name_sentence": 1,
+        "initial": {
+          "quantity": 2,
+          "unit": "pieces",
+          "sentence": 1
+        },
+        "final": {
+          "quantity": 1,
+          "unit": "piece",
+          "sentence": 2
+        }
+      },
+      {
+        "name": "pasta",
+        "name_sentence": 4,
+        "initial": null,
+        "final": {
+          "quantity": 400,
+          "unit": "g",
+          "sentence": 7
+        }
+      }
+    ]
+  },
+  {
+    "note": "non-food grams - gym PR with squat and deadlift, post-workout food",
+    "sentences": [
+      "Really good gym session today, probably one of the best of the month.",
+      "Hit a new squat PR, got 120kg for 5 reps which I'm really happy with.",
+      "Deadlifted 140kg too which I was honestly surprised by.",
+      "Came home feeling great and started making food.",
+      "Had a protein shake right away.",
+      "Then made some chicken and rice for dinner.",
+      "Chicken was about 300g and rice was 150g."
+    ],
+    "foods": [
+      {
+        "name": "protein shake",
+        "name_sentence": 4,
+        "initial": null,
+        "final": null
+      },
+      {
+        "name": "chicken",
+        "name_sentence": 5,
+        "initial": null,
+        "final": {
+          "quantity": 300,
+          "unit": "g",
+          "sentence": 6
+        }
+      },
+      {
+        "name": "rice",
+        "name_sentence": 5,
+        "initial": null,
+        "final": {
+          "quantity": 150,
+          "unit": "g",
+          "sentence": 6
+        }
+      }
+    ]
+  },
+  {
+    "note": "non-food grams - heavy package delivery, then pasta dinner",
+    "sentences": [
+      "Got a delivery today, some kitchen stuff I ordered last week.",
+      "The box was really heavy, felt like 5kg at least.",
+      "Spent a bit of time sorting through it and setting things up.",
+      "The new pan looks great, can't wait to actually use it.",
+      "Made pasta for dinner.",
+      "Used the new pan actually, seemed fitting.",
+      "Was a pretty big portion, probably 400g.",
+      "Cleaned up and called it a night."
+    ],
+    "foods": [
+      {
+        "name": "pasta",
+        "name_sentence": 4,
+        "initial": null,
+        "final": {
+          "quantity": 400,
+          "unit": "g",
+          "sentence": 6
+        }
+      }
+    ]
+  },
+  {
+    "note": "non-food grams - baby weight at family visit, soup and bread",
+    "sentences": [
+      "Had a really lovely afternoon visiting my cousin and her new baby.",
+      "The baby is 3.5kg now, growing so fast.",
+      "We all sat around the table and had lunch together.",
+      "She made soup and there was some bread on the table too.",
+      "The baby fell asleep while we were eating which was adorable.",
+      "Really nice to have a proper catch-up, felt long overdue.",
+      "I had about 2 bowls of the soup and 3 slices of bread."
+    ],
+    "foods": [
+      {
+        "name": "soup",
+        "name_sentence": 3,
+        "initial": null,
+        "final": {
+          "quantity": 2,
+          "unit": "bowls",
+          "sentence": 6
+        }
+      },
+      {
+        "name": "bread",
+        "name_sentence": 3,
+        "initial": null,
+        "final": {
+          "quantity": 3,
+          "unit": "slices",
+          "sentence": 6
+        }
+      }
+    ]
+  },
+  {
+    "note": "non-food grams - morning run calories and km, then big breakfast",
+    "sentences": [
+      "Went for a run first thing this morning, managed to do 10km.",
+      "Burned around 600 calories according to my running watch.",
+      "Came home absolutely starving and made a proper cooked breakfast.",
+      "Eggs, bacon, and toast.",
+      "Took my time over it, deserved a slow morning.",
+      "Had 3 eggs, 4 strips of bacon, and 2 slices of toast."
+    ],
+    "foods": [
+      {
+        "name": "eggs",
+        "name_sentence": 3,
+        "initial": null,
+        "final": {
+          "quantity": 3,
+          "unit": "pieces",
+          "sentence": 5
+        }
+      },
+      {
+        "name": "bacon",
+        "name_sentence": 3,
+        "initial": null,
+        "final": {
+          "quantity": 4,
+          "unit": "strips",
+          "sentence": 5
+        }
+      },
+      {
+        "name": "toast",
+        "name_sentence": 3,
+        "initial": null,
+        "final": {
+          "quantity": 2,
+          "unit": "slices",
+          "sentence": 5
+        }
+      }
+    ]
+  },
+  {
+    "note": "non-food grams - vitamin dosage, then breakfast",
+    "sentences": [
+      "Morning routine today: vitamins first, then breakfast.",
+      "Took 500mg vitamin C and 1000 IU vitamin D with a glass of water.",
+      "Then had some cereal and milk.",
+      "Read the news while I was eating.",
+      "Cereal was maybe 60g and the milk was about 200ml.",
+      "Pretty standard morning, headed to work after."
+    ],
+    "foods": [
+      {
+        "name": "cereal",
+        "name_sentence": 2,
+        "initial": null,
+        "final": {
+          "quantity": 60,
+          "unit": "g",
+          "sentence": 4
+        }
+      },
+      {
+        "name": "milk",
+        "name_sentence": 2,
+        "initial": null,
+        "final": {
+          "quantity": 200,
+          "unit": "ml",
+          "sentence": 4
+        }
+      }
+    ]
+  },
+  {
+    "note": "non-food grams - heavy couch while moving, then pizza and wings",
+    "sentences": [
+      "Moved into my new place today, finally after weeks of planning.",
+      "Had a bunch of friends help out which made it way more manageable.",
+      "The couch took five of us and it's only 80kg, it was just an awkward shape.",
+      "Got everything in by late afternoon.",
+      "After we got everything in we ordered some food.",
+      "Got pizza and wings delivered.",
+      "Everyone was starving so it disappeared pretty quickly.",
+      "I had 4 slices of pizza and about 6 wings.",
+      "Great end to a big day."
+    ],
+    "foods": [
+      {
+        "name": "pizza",
+        "name_sentence": 5,
+        "initial": null,
+        "final": {
+          "quantity": 4,
+          "unit": "slices",
+          "sentence": 7
+        }
+      },
+      {
+        "name": "wings",
+        "name_sentence": 5,
+        "initial": null,
+        "final": {
+          "quantity": 6,
+          "unit": "pieces",
+          "sentence": 7
+        }
+      }
+    ]
+  },
+  {
+    "note": "non-food grams - doctor weight check, then chicken and lentils",
+    "sentences": [
+      "Had a routine check-up with my GP today.",
+      "Blood pressure and all the usual checks, everything came back fine.",
+      "My weight was 75kg which she said is right where I should be.",
+      "She recommended I eat more protein generally.",
+      "Took that on board and made chicken and lentils for dinner.",
+      "Tried to be mindful of portions.",
+      "The chicken was a good sized piece, about 250g.",
+      "Lentils I had about half a cup cooked."
+    ],
+    "foods": [
+      {
+        "name": "chicken",
+        "name_sentence": 4,
+        "initial": null,
+        "final": {
+          "quantity": 250,
+          "unit": "g",
+          "sentence": 6
+        }
+      },
+      {
+        "name": "lentils",
+        "name_sentence": 4,
+        "initial": null,
+        "final": {
+          "quantity": 0.5,
+          "unit": "cups",
+          "sentence": 7
+        }
+      }
+    ]
+  },
+  {
+    "note": "non-food grams - bike distance and time, post-workout eggs and toast",
+    "sentences": [
+      "Morning routine started with a 45 minute spin on the stationary bike.",
+      "Covered about 20km according to the readout, which is decent for that time.",
+      "Worked up a proper sweat and felt good after.",
+      "Had my post-workout meal after a shower.",
+      "Scrambled eggs and some whole wheat toast.",
+      "3 eggs and 2 slices of toast.",
+      "Did some reading and then got ready for work."
+    ],
+    "foods": [
+      {
+        "name": "scrambled eggs",
+        "name_sentence": 4,
+        "initial": null,
+        "final": {
+          "quantity": 3,
+          "unit": "pieces",
+          "sentence": 5
+        }
+      },
+      {
+        "name": "whole wheat toast",
+        "name_sentence": 4,
+        "initial": null,
+        "final": {
+          "quantity": 2,
+          "unit": "slices",
+          "sentence": 5
+        }
+      }
+    ]
+  },
+  {
+    "note": "non-food grams - cooking batch 1kg vs 200g actually eaten",
+    "sentences": [
+      "Did a big cook-up of chicken today to save time during the week.",
+      "Put about 1kg of chicken in the oven with some herbs and seasoning.",
+      "While it was cooking I sorted some bits around the flat.",
+      "The place smelled really good actually.",
+      "Divided it into containers when it came out.",
+      "I had some for dinner.",
+      "Just a small portion, about 200g.",
+      "Stored the rest in the fridge for the rest of the week."
+    ],
+    "foods": [
+      {
+        "name": "chicken",
+        "name_sentence": 1,
+        "initial": {
+          "quantity": 1000,
+          "unit": "g",
+          "sentence": 1
+        },
+        "final": {
+          "quantity": 200,
+          "unit": "g",
+          "sentence": 6
+        }
+      }
+    ]
+  },
+  {
+    "note": "non-food grams - creatine supplement, yogurt and berries with correction",
+    "sentences": [
+      "Part of my morning routine now is 5g of creatine with water before eating.",
+      "Had Greek yogurt and berries for breakfast.",
+      "The yogurt container was one of the big 500g tubs.",
+      "I only had half though, so more like 250g.",
+      "Berries were just a handful on top, maybe 80g.",
+      "Quick morning after that, out the door by 8."
+    ],
+    "foods": [
+      {
+        "name": "Greek yogurt",
+        "name_sentence": 1,
+        "initial": {
+          "quantity": 500,
+          "unit": "g",
+          "sentence": 2
+        },
+        "final": {
+          "quantity": 250,
+          "unit": "g",
+          "sentence": 3
+        }
+      },
+      {
+        "name": "berries",
+        "name_sentence": 1,
+        "initial": null,
+        "final": {
+          "quantity": 80,
+          "unit": "g",
+          "sentence": 4
+        }
+      }
+    ]
+  },
+  {
+    "note": "non-food grams - walked steps and water intake, then tuna sandwich",
+    "sentences": [
+      "Busy day: walked 8000 steps, drank 2 litres of water, and lifted 60kg in the gym.",
+      "Kept food pretty simple to make up for a big weekend.",
+      "Just a tuna sandwich and an orange.",
+      "Sandwich was about 250g and the orange was one medium one.",
+      "Early night, need to be up for a call at 7 tomorrow."
+    ],
+    "foods": [
+      {
+        "name": "tuna sandwich",
+        "name_sentence": 2,
+        "initial": null,
+        "final": {
+          "quantity": 250,
+          "unit": "g",
+          "sentence": 3
+        }
+      },
+      {
+        "name": "orange",
+        "name_sentence": 2,
+        "initial": null,
+        "final": {
+          "quantity": 1,
+          "unit": "piece",
+          "sentence": 3
+        }
+      }
+    ]
+  },
+  {
+    "note": "noisy - grocery shop, bought 1kg pack but only ate 150g",
+    "sentences": [
+      "Did the weekly grocery shop this morning, always takes longer than I think it will.",
+      "Picked up a pack of chicken breast, about 1kg.",
+      "Got vegetables, bread, and a few other bits.",
+      "Had some people round in the afternoon which was a nice surprise.",
+      "Cooked the chicken for dinner and just had some for myself.",
+      "My portion was quite small, only about 150g.",
+      "Enough left over for lunches this week."
+    ],
+    "foods": [
+      {
+        "name": "chicken breast",
+        "name_sentence": 1,
+        "initial": {
+          "quantity": 1000,
+          "unit": "g",
+          "sentence": 1
+        },
+        "final": {
+          "quantity": 150,
+          "unit": "g",
+          "sentence": 5
+        }
+      }
+    ]
+  },
+  {
+    "note": "noisy - Thai curry from scratch, ambitious weeknight",
+    "sentences": [
+      "Tried making Thai curry from scratch tonight, a bit ambitious for a weeknight.",
+      "Found the recipe online and it looked manageable.",
+      "Needed coconut milk, chicken, and vegetables.",
+      "The house smelled amazing while it was cooking.",
+      "Took about 45 minutes total which wasn't too bad.",
+      "Really happy with how it came out, would make it again.",
+      "I had about 2 cups of the curry for dinner."
+    ],
+    "foods": [
+      {
+        "name": "Thai curry",
+        "name_sentence": 0,
+        "initial": null,
+        "final": {
+          "quantity": 2,
+          "unit": "cups",
+          "sentence": 6
+        }
+      }
+    ]
+  },
+  {
+    "note": "noisy - peanut butter packaging vs actually eaten, plus toast",
+    "sentences": [
+      "Working from home today, slow-paced kind of morning.",
+      "Had peanut butter on toast which is my default when I don't think too hard about breakfast.",
+      "The jar says a serving is 32g.",
+      "I definitely had more than that though.",
+      "More like 3 tablespoons, probably 60g total.",
+      "Toast was 2 slices.",
+      "Had coffee with it and caught up on some emails before starting work."
+    ],
+    "foods": [
+      {
+        "name": "peanut butter",
+        "name_sentence": 1,
+        "initial": {
+          "quantity": 32,
+          "unit": "g",
+          "sentence": 2
+        },
+        "final": {
+          "quantity": 60,
+          "unit": "g",
+          "sentence": 4
+        }
+      },
+      {
+        "name": "toast",
+        "name_sentence": 1,
+        "initial": null,
+        "final": {
+          "quantity": 2,
+          "unit": "slices",
+          "sentence": 5
+        }
+      }
+    ]
+  },
+  {
+    "note": "noisy - plans vs actual, planned salad ended up burger",
+    "sentences": [
+      "Planned to eat super clean today, stuck to it for breakfast.",
+      "Made some eggs, kept it simple.",
+      "Lunch I was going to have a salad.",
+      "But ended up having a burger instead, couldn't resist.",
+      "Small-ish burger, probably 250g.",
+      "And 2 eggs at breakfast.",
+      "Tomorrow I'll actually do the salad."
+    ],
+    "foods": [
+      {
+        "name": "eggs",
+        "name_sentence": 1,
+        "initial": null,
+        "final": {
+          "quantity": 2,
+          "unit": "pieces",
+          "sentence": 5
+        }
+      },
+      {
+        "name": "burger",
+        "name_sentence": 3,
+        "initial": null,
+        "final": {
+          "quantity": 250,
+          "unit": "g",
+          "sentence": 4
+        }
+      }
+    ]
+  },
+  {
+    "note": "noisy - estimate then measured correction, diet coke no quantity",
+    "sentences": [
+      "Just jotting this down before I forget.",
+      "Had a wrap at lunchtime.",
+      "My first guess was around 350g.",
+      "Weighed it on the kitchen scale later, it came to 290g.",
+      "Also had a Diet Coke with it.",
+      "Dinner still to figure out."
+    ],
+    "foods": [
+      {
+        "name": "wrap",
+        "name_sentence": 1,
+        "initial": {
+          "quantity": 350,
+          "unit": "g",
+          "sentence": 2
+        },
+        "final": {
+          "quantity": 290,
+          "unit": "g",
+          "sentence": 3
+        }
+      },
+      {
+        "name": "Diet Coke",
+        "name_sentence": 4,
+        "initial": null,
+        "final": null
+      }
+    ]
+  },
+  {
+    "note": "noisy - post-gym training log style",
+    "sentences": [
+      "Training log for today.",
+      "Bench 80kg, 5x5.",
+      "Good session overall, felt strong.",
+      "Post-workout meal: protein shake, banana, and rice cakes.",
+      "Shake was 1 scoop, banana was 1, rice cakes were 3 pieces.",
+      "Then dinner later, keeping it light."
+    ],
+    "foods": [
+      {
+        "name": "protein shake",
+        "name_sentence": 3,
+        "initial": null,
+        "final": {
+          "quantity": 1,
+          "unit": "scoop",
+          "sentence": 4
+        }
+      },
+      {
+        "name": "banana",
+        "name_sentence": 3,
+        "initial": null,
+        "final": {
+          "quantity": 1,
+          "unit": "piece",
+          "sentence": 4
+        }
+      },
+      {
+        "name": "rice cakes",
+        "name_sentence": 3,
+        "initial": null,
+        "final": {
+          "quantity": 3,
+          "unit": "pieces",
+          "sentence": 4
+        }
+      }
+    ]
+  },
+  {
+    "note": "noisy - unclear day, cereal then pasta, quantities come late",
+    "sentences": [
+      "Not a great day for tracking honestly, kind of lost track of things.",
+      "Breakfast I had some cereal I think.",
+      "Then pasta for dinner.",
+      "Didn't really measure anything today.",
+      "Cereal was probably 2 bowls, maybe less.",
+      "Pasta was a big portion, I know that much.",
+      "Maybe 450g of it."
+    ],
+    "foods": [
+      {
+        "name": "cereal",
+        "name_sentence": 1,
+        "initial": null,
+        "final": {
+          "quantity": 2,
+          "unit": "bowls",
+          "sentence": 4
+        }
+      },
+      {
+        "name": "pasta",
+        "name_sentence": 2,
+        "initial": null,
+        "final": {
+          "quantity": 450,
+          "unit": "g",
+          "sentence": 6
+        }
+      }
+    ]
+  },
+  {
+    "note": "noisy - friend's food as distractor, I had fish",
+    "sentences": [
+      "Had lunch with my friend today at that new place by the market.",
+      "She had this huge burger, looked absolutely amazing.",
+      "I went with the grilled fish instead, trying to keep things a bit lighter.",
+      "We sat outside which was nice for once.",
+      "My fish was probably 200g, really fresh.",
+      "Would definitely go back."
+    ],
+    "foods": [
+      {
+        "name": "grilled fish",
+        "name_sentence": 2,
+        "initial": null,
+        "final": {
+          "quantity": 200,
+          "unit": "g",
+          "sentence": 4
+        }
+      }
+    ]
+  },
+  {
+    "note": "noisy - interrupting thoughts, smoothie mentioned early, quantity late",
+    "sentences": [
+      "Made a smoothie this morning.",
+      "I was going to go for a run but it started raining so I didn't.",
+      "Ended up watching something on TV for a bit instead.",
+      "Did some tidying around the flat.",
+      "The smoothie was about 400ml, had banana and some oats blended in."
+    ],
+    "foods": [
+      {
+        "name": "smoothie",
+        "name_sentence": 0,
+        "initial": null,
+        "final": {
+          "quantity": 400,
+          "unit": "ml",
+          "sentence": 4
+        }
+      }
+    ]
+  },
+  {
+    "note": "noisy - work meeting with donuts and coffee, quantities at end",
+    "sentences": [
+      "Had a really long team meeting this morning, like 3 hours.",
+      "Someone brought in donuts which honestly saved the day.",
+      "I had a couple during the break.",
+      "Also had a coffee to get through the rest of the afternoon.",
+      "Two donuts and a large coffee, roughly 500ml."
+    ],
+    "foods": [
+      {
+        "name": "donuts",
+        "name_sentence": 1,
+        "initial": null,
+        "final": {
+          "quantity": 2,
+          "unit": "pieces",
+          "sentence": 4
+        }
+      },
+      {
+        "name": "coffee",
+        "name_sentence": 3,
+        "initial": null,
+        "final": {
+          "quantity": 500,
+          "unit": "ml",
+          "sentence": 4
+        }
+      }
+    ]
+  },
+  {
+    "note": "negation - oatmeal wrong unit (cups vs grams), strawberries no quantity",
+    "sentences": [
+      "First proper breakfast in a while today, wanted something filling.",
+      "Had oatmeal which I've been meaning to get back into.",
+      "Pretty sure I had like 2 cups of it.",
+      "Wait no that's for measuring liquids, for oats it's more like 80g.",
+      "Had some strawberries with it too.",
+      "Quick breakfast, then a busy morning of back-to-back calls."
+    ],
+    "foods": [
+      {
+        "name": "oatmeal",
+        "name_sentence": 1,
+        "initial": {
+          "quantity": 2,
+          "unit": "cups",
+          "sentence": 2
+        },
+        "final": {
+          "quantity": 80,
+          "unit": "g",
+          "sentence": 3
+        }
+      },
+      {
+        "name": "strawberries",
+        "name_sentence": 4,
+        "initial": null,
+        "final": null
+      }
+    ]
+  },
+  {
+    "note": "noisy - meal prep turkey quinoa veg, life context throughout",
+    "sentences": [
+      "Sunday meal prep is always a mission but it saves so much time during the week.",
+      "This week I'm making a batch of turkey and quinoa.",
+      "Got some veggies to roast too.",
+      "Put on a playlist and just worked through it.",
+      "Each serving of turkey is 200g raw which I measured out.",
+      "Quinoa comes to about 150g cooked per portion.",
+      "And maybe 100g of mixed veg per serving.",
+      "Containers are all stacked in the fridge, ready to go."
+    ],
+    "foods": [
+      {
+        "name": "turkey",
+        "name_sentence": 1,
+        "initial": null,
+        "final": {
+          "quantity": 200,
+          "unit": "g",
+          "sentence": 4
+        }
+      },
+      {
+        "name": "quinoa",
+        "name_sentence": 1,
+        "initial": null,
+        "final": {
+          "quantity": 150,
+          "unit": "g",
+          "sentence": 5
+        }
+      },
+      {
+        "name": "mixed veg",
+        "name_sentence": 2,
+        "initial": null,
+        "final": {
+          "quantity": 100,
+          "unit": "g",
+          "sentence": 6
+        }
+      }
+    ]
+  },
+  {
+    "note": "drank - energy drink with gym, delayed quantity",
+    "sentences": [
+      "Hit the gym after work, decent session.",
+      "On the way out I grabbed a rockstar energy drink.",
+      "Also picked up a protein bar.",
+      "Had a long drive home after.",
+      "Drank the rockstar on the way, the whole can so one.",
+      "The protein bar was the 65g one."
+    ],
+    "foods": [
+      {
+        "name": "rockstar energy drink",
+        "name_sentence": 1,
+        "initial": null,
+        "final": {
+          "quantity": 1,
+          "unit": "can",
+          "sentence": 4
+        }
+      },
+      {
+        "name": "protein bar",
+        "name_sentence": 2,
+        "initial": null,
+        "final": {
+          "quantity": 65,
+          "unit": "g",
+          "sentence": 5
+        }
+      }
+    ]
+  },
+  {
+    "note": "drank - mixed meal and drink, noisy life context",
+    "sentences": [
+      "Long day at the office, didn't have much time to eat properly.",
+      "Grabbed something quick at the canteen.",
+      "Had a chicken wrap and drank a coke.",
+      "Ate at my desk while finishing off a report.",
+      "The wrap was a standard size, about 250g.",
+      "Coke was just the regular 330ml can."
+    ],
+    "foods": [
+      {
+        "name": "chicken wrap",
+        "name_sentence": 2,
+        "initial": null,
+        "final": {
+          "quantity": 250,
+          "unit": "g",
+          "sentence": 4
+        }
+      },
+      {
+        "name": "coke",
+        "name_sentence": 2,
+        "initial": null,
+        "final": {
+          "quantity": 330,
+          "unit": "ml",
+          "sentence": 5
+        }
+      }
+    ]
+  },
+  {
+    "note": "drank - post-run rehydration with food",
+    "sentences": [
+      "Did a 5km run this morning, not my longest but felt good.",
+      "Got back home and immediately drank a big glass of water.",
+      "Then had some eggs and toast for breakfast.",
+      "Felt much better after eating.",
+      "The water was about 400ml.",
+      "Had 2 eggs and 2 slices of toast."
+    ],
+    "foods": [
+      {
+        "name": "water",
+        "name_sentence": 1,
+        "initial": null,
+        "final": {
+          "quantity": 400,
+          "unit": "ml",
+          "sentence": 4
+        }
+      },
+      {
+        "name": "eggs",
+        "name_sentence": 2,
+        "initial": null,
+        "final": {
+          "quantity": 2,
+          "unit": "pieces",
+          "sentence": 5
+        }
+      },
+      {
+        "name": "toast",
+        "name_sentence": 2,
+        "initial": null,
+        "final": {
+          "quantity": 2,
+          "unit": "slices",
+          "sentence": 5
+        }
+      }
+    ]
+  },
+  {
+    "note": "drank - also drank construction, party context",
+    "sentences": [
+      "Went to a house party at the weekend.",
+      "There was loads of food and drinks out.",
+      "I ate some chips and also drank a couple of beers.",
+      "Was there for a few hours, really good night.",
+      "The chips were probably 60g total.",
+      "Drank 2 beers over the evening."
+    ],
+    "foods": [
+      {
+        "name": "chips",
+        "name_sentence": 2,
+        "initial": null,
+        "final": {
+          "quantity": 60,
+          "unit": "g",
+          "sentence": 4
+        }
+      },
+      {
+        "name": "beers",
+        "name_sentence": 2,
+        "initial": null,
+        "final": {
+          "quantity": 2,
+          "unit": "pieces",
+          "sentence": 5
+        }
+      }
+    ]
+  }
+]
