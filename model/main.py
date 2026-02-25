@@ -1,4 +1,4 @@
-from text_to_food import text_to_food
+from model.text_to_food import text_to_food
 
 text ='Today i ate 150g of honey and a kebab. I also drank one müllermilch.'
 

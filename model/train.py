@@ -1,5 +1,5 @@
 from transformers import AutoModelForSeq2SeqLM
-from data import tokenize_dataset
+from model.data import tokenize_dataset
 from transformers import TrainingArguments, Trainer, AutoTokenizer, TrainerCallback
 import torch
 
