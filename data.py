@@ -3,12 +3,16 @@ from datasets import Dataset
 import json
 
 
-def tokenize_dataset(model_name, json_path):
+def tokenize_dataset(model_name, json_paths):
     tokenizer = AutoTokenizer.from_pretrained(model_name)
 
-    # generated with LLM to mimic random user inputs
-    with open(json_path, "r") as f:
-        data = json.load(f)
+    if isinstance(json_paths, str):
+        json_paths = [json_paths]
+
+    data = []
+    for path in json_paths:
+        with open(path, "r", encoding="utf-8") as f:
+            data.extend(json.load(f))
 
     ds = Dataset.from_list(data)
 
@@ -18,16 +22,16 @@ def tokenize_dataset(model_name, json_path):
     val_ds = split_ds["test"]
 
     def preprocess(example):
-        input_text = "extract food:" + example["input"]
+        input_text = "extract_food: " + example["input"]
         inputs = tokenizer(
-            input_text, truncation=True, padding="max_length", max_length=128
+            input_text, truncation=True, padding="max_length", max_length=256
         )
         labels = tokenizer(
             example["output"], truncation=True, padding="max_length", max_length=128
         )
 
         labels_ids = [
-            token if token is not tokenizer.pad_token_id else -100
+            token if token != tokenizer.pad_token_id else -100
             for token in labels["input_ids"]
         ]
 

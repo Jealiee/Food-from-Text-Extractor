@@ -2,7 +2,10 @@
 __pycache__/
 *.pyc
 results/
- Backend/bin/
- Backend/obj/
- Backend/appsettings.Development.json
+Backend/bin/
+Backend/obj/
+Backend/appsettings.Development.json
 
+results/
+.claude
+fuzz.py
