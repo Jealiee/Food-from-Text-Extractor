@@ -1,37 +1,23 @@
-using System.Diagnostics;
+using System.Net.Http;
 
 var builder = WebApplication.CreateBuilder(args);
 var app = builder.Build();
 
-app.MapGet("/", () =>
+app.MapGet("/predict", async (string text) =>
 {
-    var psi = new ProcessStartInfo
-    {
-        FileName = "python",
-        Arguments = "-u -m model.main",
-        RedirectStandardOutput = true,
-        RedirectStandardError = true,
-        UseShellExecute = false,
-        CreateNoWindow = true,
-        WorkingDirectory = @"C:\Users\julka\Repos\Food from Text Extractor"
-    };
-    var process = Process.Start(psi);
+    using var client = new HttpClient();
+    var url = $"http://127.0.0.1:8000/predict?text={Uri.EscapeDataString(text)}";
 
-    if (process == null)
+    try
     {
-        return Results.Text("Failed to start Python process");
+        var response = await client.GetStringAsync(url);
+        return Results.Text(response);
     }
 
-    string errors = process.StandardError.ReadToEnd();
-    string output = process.StandardOutput.ReadToEnd();
-    process.WaitForExit();
-
-    if (process.ExitCode != 0)
+    catch (Exception ex)
     {
-        return Results.Text($"Python Error:\n{errors}");
+        return Results.Text($"Error calling Python API: {ex.Message}");
     }
-
-    return Results.Text(output);
 });
 
 app.Run();
