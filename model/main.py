@@ -1,9 +1,10 @@
 from model.text_to_food import text_to_food
+from fastapi import FastAPI
 
-text ='Today i ate 150g of honey and a kebab. I also drank one müllermilch.'
+app = FastAPI()
 
-res = text_to_food(text, r'model/results/checkpoint-1125')
+model_path = r'model/results/checkpoint-1125'
 
-print(res, flush = True)
-
-print ('Hello world from Pythonland!', flush=True)
+@app.get("/predict")
+def predict(text: str):
+    return text_to_food(text, model_path)
