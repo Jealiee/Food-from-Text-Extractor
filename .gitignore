@@ -5,7 +5,8 @@ results/
 Backend/bin/
 Backend/obj/
 Backend/appsettings.Development.json
-
-results/
 .claude
 fuzz.py
+node_modules/
+dist/
+
